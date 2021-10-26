@@ -1,0 +1,101 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	CHEBI - Chemical Entities of Biological Interest	CRO - Contributor Role Ontology	EDAM - EMBRACE Data and Methods	EFO - Experimental Factor Ontology	GENEPIO - Genomic Epidemiology Ontology	MMO - Measurement method ontology	NCBI organismal classification	NCI Thesaurus OBO Edition	OBI - Ontology for Biomedical Investigations	Ontologized MIABIS	PRIDE Controlled Vocabulary	STATO: the statistical methods ontology	Uber-anatomy ontology
+Term Source File	http://purl.obolibrary.org/obo/chebi.owl	http://purl.obolibrary.org/obo/cro.owl	http://edamontology.org/EDAM.owl	http://www.ebi.ac.uk/efo/efo.owl	http://purl.obolibrary.org/obo/genepio.owl	http://purl.obolibrary.org/obo/mmo.owl	http://purl.obolibrary.org/obo/ncbitaxon.owl	http://purl.obolibrary.org/obo/ncit.owl	http://purl.obolibrary.org/obo/obi.owl	http://purl.obolibrary.org/obo/omiabis.owl	http://purl.obolibrary.org/obo/pride_cv.obo	http://purl.obolibrary.org/obo/stato.owl	http://purl.obolibrary.org/obo/uberon.owl
+Term Source Version													
+Term Source Description	A structured classification of molecular entities of biological interest focusing on 'small' chemical compounds.	A classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability.	EDAM (EMBRACE Data and Methods) is an ontology of common bioinformatics operations, topics, types of data including identifiers, and formats. EDAM comprises common concepts (shared within the bioinformatics community) that apply to semantic annotation of resources.	The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org	The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research foodborne pathogens and associated outbreaks.	A representation of the variety of methods used to make clinical and phenotype measurements.	An ontology representation of the NCBI organismal taxonomy	The NCIt OBO Edition project aims to increase integration of the NCIt with OBO Library ontologies. NCIt is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities. NCIt OBO Edition releases should be considered experimental.	An integrated ontology for the description of life-science and clinical investigations	An ontological version of MIABIS (Minimum Information About BIobank data Sharing)	The PRIDE PRoteomics IDEntifications (PRIDE) database is a centralized, standards compliant, public data repository for proteomics data, including protein and peptide identifications, post-translational modifications and supporting spectral evidence.	STATO is the statistical methods ontology. It contains concepts and properties related to statistical methods, probability distributions and other concepts related to statistical analysis, including relationships to study designs and plots.	Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	EATRIS-Plus - Flagship in Personalised Medicine
+Investigation Description	EATRIS-Plus project aims to support the long-term sustainability of the European Research Infrastructure for Translational Medicine (EATRIS) by delivering innovative scientific tools to the research community, strengthening the EATRIS financial model, and reinforcing EATRIS’ leadership in the European Research Area in the field of Personalised Medicine (PM).
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name	Keidong
+Investigation Person First Name	Eliis
+Investigation Person Mid Initials	
+Investigation Person Email	
+Investigation Person Phone	
+Investigation Person Fax	
+Investigation Person Address	
+Investigation Person Affiliation	EATRIS
+Investigation Person Roles	project management role
+Investigation Person Roles Term Accession Number	http://purl.obolibrary.org/obo/CRO_0000065
+Investigation Person Roles Term Source REF	CRO - Contributor Role Ontology
+STUDY
+Study Identifier	
+Study Title	Multi-omics data of a Czech population cohort
+Study Description	Multi-omics data of a Czech population cohort
+Study Submission Date	
+Study Public Release Date	
+Study File Name	s_study.txt
+STUDY DESIGN DESCRIPTORS
+Study Design Type	Multi-omics study	population based study design
+Study Design Type Term Accession Number	http://purl.obolibrary.org/obo/PRIDE_0000461	http://purl.obolibrary.org/obo/OMIABIS_0001022
+Study Design Type Term Source REF	PRIDE Controlled Vocabulary	Ontologized MIABIS
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name
+Study Factor Type
+Study Factor Type Term Accession Number
+Study Factor Type Term Source REF
+STUDY ASSAYS
+Study Assay File Name	a_assay_genomics_imtm.txt	a_assay_rnaseq_fimm.txt
+Study Assay Measurement Type	DNA Sequence	Binary format
+Study Assay Measurement Type Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C13299	http://edamontology.org/format_2333
+Study Assay Measurement Type Term Source REF	NCI Thesaurus OBO Edition	EDAM - EMBRACE Data and Methods
+Study Assay Technology Type	Whole Genome Sequencing	mRNA Sequencing
+Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C101294	http://purl.obolibrary.org/obo/NCIT_C129432
+Study Assay Technology Type Term Source REF	NCI Thesaurus OBO Edition	NCI Thesaurus OBO Edition
+Study Assay Technology Platform	"OntologyAnnotation(
+    term=Illumina platform
+    term_source=GENEPIO - Genomic Epidemiology Ontology
+    term_accession=http://purl.obolibrary.org/obo/GENEPIO_0001923
+    comments=0 Comment objects
+)"	"OntologyAnnotation(
+    term=Illumina NovaSeq 6000
+    term_source=OBI - Ontology for Biomedical Investigations
+    term_accession=http://purl.obolibrary.org/obo/OBI_0002630
+    comments=0 Comment objects
+)"
+STUDY PROTOCOLS
+Study Protocol Name	sample_collection_protocol	DNA extraction	RNA extraction	Whole Genome Sequencing	mRNA Sequencing	MicroRNA Sequencing
+Study Protocol Type	sample collection	DNA extraction	RNA extraction	Whole Genome Sequencing	mRNA Sequencing	MicroRNA Sequencing
+Study Protocol Type Term Accession Number		http://purl.obolibrary.org/obo/OBI_0000257	http://purl.obolibrary.org/obo/OBI_0666666	http://purl.obolibrary.org/obo/NCIT_C101294	http://purl.obolibrary.org/obo/NCIT_C129432	http://purl.obolibrary.org/obo/NCIT_C156057
+Study Protocol Type Term Source REF		OBI - Ontology for Biomedical Investigations	OBI - Ontology for Biomedical Investigations	NCI Thesaurus OBO Edition	NCI Thesaurus OBO Edition	NCI Thesaurus OBO Edition
+Study Protocol Description						
+Study Protocol URI						
+Study Protocol Version						
+Study Protocol Parameters Name	anatomical entity					
+Study Protocol Parameters Name Term Accession Number	http://purl.obolibrary.org/obo/UBERON_0001062					
+Study Protocol Parameters Name Term Source REF	Uber-anatomy ontology					
+Study Protocol Components Name						
+Study Protocol Components Type						
+Study Protocol Components Type Term Accession Number						
+Study Protocol Components Type Term Source REF						
+STUDY CONTACTS
+Study Person Last Name	Hajduch
+Study Person First Name	Marian
+Study Person Mid Initials	
+Study Person Email	
+Study Person Phone	
+Study Person Fax	
+Study Person Address	
+Study Person Affiliation	Institute of Molecular and Translational Medicine (IMTM), Palacký University Olomouc
+Study Person Roles	
+Study Person Roles Term Accession Number	
+Study Person Roles Term Source REF	

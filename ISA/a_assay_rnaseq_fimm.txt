@@ -1,0 +1,4 @@
+Sample Name	Protocol REF	Extract Name	Protocol REF	Raw Data File
+sample_1	RNA extraction	RNA_sample_1	mRNA Sequencing	RNAseq_BCL_RNA_sample_1
+sample_2	RNA extraction	RNA_sample_2	mRNA Sequencing	RNAseq_BCL_RNA_sample_2
+sample_3	RNA extraction	RNA_sample_3	mRNA Sequencing	RNAseq_BCL_RNA_sample_3

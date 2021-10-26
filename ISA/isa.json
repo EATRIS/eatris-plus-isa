@@ -1,0 +1,926 @@
+{
+    "comments": [],
+    "description": "EATRIS-Plus project aims to support the long-term sustainability of the European Research Infrastructure for Translational Medicine (EATRIS) by delivering innovative scientific tools to the research community, strengthening the EATRIS financial model, and reinforcing EATRIS\u2019 leadership in the European Research Area in the field of Personalised Medicine (PM).",
+    "identifier": "",
+    "ontologySourceReferences": [
+        {
+            "description": "A structured classification of molecular entities of biological interest focusing on 'small' chemical compounds.",
+            "file": "http://purl.obolibrary.org/obo/chebi.owl",
+            "name": "CHEBI - Chemical Entities of Biological Interest",
+            "version": ""
+        },
+        {
+            "description": "A classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability.",
+            "file": "http://purl.obolibrary.org/obo/cro.owl",
+            "name": "CRO - Contributor Role Ontology",
+            "version": ""
+        },
+        {
+            "description": "EDAM (EMBRACE Data and Methods) is an ontology of common bioinformatics operations, topics, types of data including identifiers, and formats. EDAM comprises common concepts (shared within the bioinformatics community) that apply to semantic annotation of resources.",
+            "file": "http://edamontology.org/EDAM.owl",
+            "name": "EDAM - EMBRACE Data and Methods",
+            "version": ""
+        },
+        {
+            "description": "The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org",
+            "file": "http://www.ebi.ac.uk/efo/efo.owl",
+            "name": "EFO - Experimental Factor Ontology",
+            "version": ""
+        },
+        {
+            "description": "The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research foodborne pathogens and associated outbreaks.",
+            "file": "http://purl.obolibrary.org/obo/genepio.owl",
+            "name": "GENEPIO - Genomic Epidemiology Ontology",
+            "version": ""
+        },
+        {
+            "description": "A representation of the variety of methods used to make clinical and phenotype measurements.",
+            "file": "http://purl.obolibrary.org/obo/mmo.owl",
+            "name": "MMO - Measurement method ontology",
+            "version": ""
+        },
+        {
+            "description": "An ontology representation of the NCBI organismal taxonomy",
+            "file": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+            "name": "NCBI organismal classification",
+            "version": ""
+        },
+        {
+            "description": "The NCIt OBO Edition project aims to increase integration of the NCIt with OBO Library ontologies. NCIt is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities. NCIt OBO Edition releases should be considered experimental.",
+            "file": "http://purl.obolibrary.org/obo/ncit.owl",
+            "name": "NCI Thesaurus OBO Edition",
+            "version": ""
+        },
+        {
+            "description": "An integrated ontology for the description of life-science and clinical investigations",
+            "file": "http://purl.obolibrary.org/obo/obi.owl",
+            "name": "OBI - Ontology for Biomedical Investigations",
+            "version": ""
+        },
+        {
+            "description": "An ontological version of MIABIS (Minimum Information About BIobank data Sharing)",
+            "file": "http://purl.obolibrary.org/obo/omiabis.owl",
+            "name": "Ontologized MIABIS",
+            "version": ""
+        },
+        {
+            "description": "The PRIDE PRoteomics IDEntifications (PRIDE) database is a centralized, standards compliant, public data repository for proteomics data, including protein and peptide identifications, post-translational modifications and supporting spectral evidence.",
+            "file": "http://purl.obolibrary.org/obo/pride_cv.obo",
+            "name": "PRIDE Controlled Vocabulary",
+            "version": ""
+        },
+        {
+            "description": "STATO is the statistical methods ontology. It contains concepts and properties related to statistical methods, probability distributions and other concepts related to statistical analysis, including relationships to study designs and plots.",
+            "file": "http://purl.obolibrary.org/obo/stato.owl",
+            "name": "STATO: the statistical methods ontology",
+            "version": ""
+        },
+        {
+            "description": "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+            "file": "http://purl.obolibrary.org/obo/uberon.owl",
+            "name": "Uber-anatomy ontology",
+            "version": ""
+        }
+    ],
+    "people": [
+        {
+            "address": "",
+            "affiliation": "EATRIS",
+            "comments": [],
+            "email": "",
+            "fax": "",
+            "firstName": "Eliis",
+            "lastName": "Keidong",
+            "midInitials": "",
+            "phone": "",
+            "roles": [
+                {
+                    "@id": "#3f07b6e2-d4d6-4553-bcc5-faf2d23c37bb",
+                    "annotationValue": "project management role",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/CRO_0000065",
+                    "termSource": "CRO - Contributor Role Ontology"
+                }
+            ]
+        }
+    ],
+    "publicReleaseDate": "",
+    "publications": [],
+    "studies": [
+        {
+            "assays": [
+                {
+                    "characteristicCategories": [],
+                    "comments": [],
+                    "dataFiles": [
+                        {
+                            "@id": "#data/rawdatafile-140696594335440",
+                            "comments": [],
+                            "name": "WGS_rawdata_DNA_sample_1",
+                            "type": "Raw Data File"
+                        },
+                        {
+                            "@id": "#data/rawdatafile-140696594336064",
+                            "comments": [],
+                            "name": "WGS_rawdata_DNA_sample_2",
+                            "type": "Raw Data File"
+                        },
+                        {
+                            "@id": "#data/rawdatafile-140696594336688",
+                            "comments": [],
+                            "name": "WGS_rawdata_DNA_sample_3",
+                            "type": "Raw Data File"
+                        }
+                    ],
+                    "filename": "a_assay_genomics_imtm.txt",
+                    "materials": {
+                        "otherMaterials": [
+                            {
+                                "@id": "#material/extract-140696594334384",
+                                "characteristics": [],
+                                "name": "DNA_sample_1",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-140696594335680",
+                                "characteristics": [],
+                                "name": "DNA_sample_2",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-140696594336448",
+                                "characteristics": [],
+                                "name": "DNA_sample_3",
+                                "type": "Extract Name"
+                            }
+                        ],
+                        "samples": [
+                            {
+                                "@id": "#sample/140696594402944",
+                                "characteristics": [],
+                                "factorValues": [],
+                                "name": "sample_1"
+                            },
+                            {
+                                "@id": "#sample/140697708635664",
+                                "characteristics": [],
+                                "factorValues": [],
+                                "name": "sample_2"
+                            },
+                            {
+                                "@id": "#sample/140697708637296",
+                                "characteristics": [],
+                                "factorValues": [],
+                                "name": "sample_3"
+                            }
+                        ]
+                    },
+                    "measurementType": {
+                        "@id": "#08163ae9-ab60-493a-9acf-3709d2a74667",
+                        "annotationValue": "DNA Sequence",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C13299",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "processSequence": [
+                        {
+                            "@id": "#process/140696594335248",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401120"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/140696594402944"
+                                }
+                            ],
+                            "name": "DNA_extraction_sample_1",
+                            "nextProcess": {
+                                "@id": "#process/140696594334768"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-140696594334384"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/140696594334768",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401408"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-140696594334384"
+                                }
+                            ],
+                            "name": "WGS_DNA_sample_1",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafile-140696594335440"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/140696594335248"
+                            }
+                        },
+                        {
+                            "@id": "#process/140696594335776",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401120"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/140697708635664"
+                                }
+                            ],
+                            "name": "DNA_extraction_sample_2",
+                            "nextProcess": {
+                                "@id": "#process/140696594336160"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-140696594335680"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/140696594336160",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401408"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-140696594335680"
+                                }
+                            ],
+                            "name": "WGS_DNA_sample_2",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafile-140696594336064"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/140696594335776"
+                            }
+                        },
+                        {
+                            "@id": "#process/140696594336544",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401120"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/140697708637296"
+                                }
+                            ],
+                            "name": "DNA_extraction_sample_3",
+                            "nextProcess": {
+                                "@id": "#process/140696594336784"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-140696594336448"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/140696594336784",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401408"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-140696594336448"
+                                }
+                            ],
+                            "name": "WGS_DNA_sample_3",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafile-140696594336688"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/140696594336544"
+                            }
+                        }
+                    ],
+                    "technologyPlatform": {
+                        "@id": "#ef6b693f-3db2-4826-8921-604ccfba5d23",
+                        "annotationValue": "Illumina platform",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/GENEPIO_0001923",
+                        "termSource": "GENEPIO - Genomic Epidemiology Ontology"
+                    },
+                    "technologyType": {
+                        "@id": "#d5542a11-0597-447e-9e0e-417b3d66b9e8",
+                        "annotationValue": "Whole Genome Sequencing",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C101294",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "unitCategories": []
+                },
+                {
+                    "characteristicCategories": [],
+                    "comments": [],
+                    "dataFiles": [
+                        {
+                            "@id": "#data/rawdatafile-140696594335536",
+                            "comments": [],
+                            "name": "RNAseq_BCL_RNA_sample_1",
+                            "type": "Raw Data File"
+                        },
+                        {
+                            "@id": "#data/rawdatafile-140696594336208",
+                            "comments": [],
+                            "name": "RNAseq_BCL_RNA_sample_2",
+                            "type": "Raw Data File"
+                        },
+                        {
+                            "@id": "#data/rawdatafile-140696594336832",
+                            "comments": [],
+                            "name": "RNAseq_BCL_RNA_sample_3",
+                            "type": "Raw Data File"
+                        }
+                    ],
+                    "filename": "a_assay_rnaseq_fimm.txt",
+                    "materials": {
+                        "otherMaterials": [
+                            {
+                                "@id": "#material/extract-140696594335296",
+                                "characteristics": [],
+                                "name": "RNA_sample_1",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-140696594335872",
+                                "characteristics": [],
+                                "name": "RNA_sample_2",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-140696594336592",
+                                "characteristics": [],
+                                "name": "RNA_sample_3",
+                                "type": "Extract Name"
+                            }
+                        ],
+                        "samples": [
+                            {
+                                "@id": "#sample/140696594402944",
+                                "characteristics": [],
+                                "factorValues": [],
+                                "name": "sample_1"
+                            },
+                            {
+                                "@id": "#sample/140697708635664",
+                                "characteristics": [],
+                                "factorValues": [],
+                                "name": "sample_2"
+                            },
+                            {
+                                "@id": "#sample/140697708637296",
+                                "characteristics": [],
+                                "factorValues": [],
+                                "name": "sample_3"
+                            }
+                        ]
+                    },
+                    "measurementType": {
+                        "@id": "#b5aef557-5620-4e23-a026-7ab6bce2c0b3",
+                        "annotationValue": "Binary format",
+                        "comments": [],
+                        "termAccession": "http://edamontology.org/format_2333",
+                        "termSource": "EDAM - EMBRACE Data and Methods"
+                    },
+                    "processSequence": [
+                        {
+                            "@id": "#process/140696594335392",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401264"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/140696594402944"
+                                }
+                            ],
+                            "name": "RNA_extraction_sample_1",
+                            "nextProcess": {
+                                "@id": "#process/140696594335632"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-140696594335296"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/140696594335632",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401552"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-140696594335296"
+                                }
+                            ],
+                            "name": "RNAseq_RNA_sample_1",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafile-140696594335536"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/140696594335392"
+                            }
+                        },
+                        {
+                            "@id": "#process/140696594336016",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401264"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/140697708635664"
+                                }
+                            ],
+                            "name": "RNA_extraction_sample_2",
+                            "nextProcess": {
+                                "@id": "#process/140696594336400"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-140696594335872"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/140696594336400",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401552"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-140696594335872"
+                                }
+                            ],
+                            "name": "RNAseq_RNA_sample_2",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafile-140696594336208"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/140696594336016"
+                            }
+                        },
+                        {
+                            "@id": "#process/140696594335920",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401264"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/140697708637296"
+                                }
+                            ],
+                            "name": "RNA_extraction_sample_3",
+                            "nextProcess": {
+                                "@id": "#process/140696594336928"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-140696594336592"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/140696594336928",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#140696594401552"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-140696594336592"
+                                }
+                            ],
+                            "name": "RNAseq_RNA_sample_3",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafile-140696594336832"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/140696594335920"
+                            }
+                        }
+                    ],
+                    "technologyPlatform": {
+                        "@id": "#dcf1d4b2-81c9-4a12-8166-98028f39369a",
+                        "annotationValue": "Illumina NovaSeq 6000",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0002630",
+                        "termSource": "OBI - Ontology for Biomedical Investigations"
+                    },
+                    "technologyType": {
+                        "@id": "#5b83b891-73bd-45d5-9f0a-37cf81a90bf3",
+                        "annotationValue": "mRNA Sequencing",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C129432",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "unitCategories": []
+                }
+            ],
+            "characteristicCategories": [],
+            "comments": [],
+            "description": "Multi-omics data of a Czech population cohort",
+            "factors": [],
+            "filename": "s_study.txt",
+            "identifier": "",
+            "materials": {
+                "otherMaterials": [],
+                "samples": [
+                    {
+                        "@id": "#sample/140696594402944",
+                        "characteristics": [],
+                        "factorValues": [],
+                        "name": "sample_1"
+                    },
+                    {
+                        "@id": "#sample/140697708635664",
+                        "characteristics": [],
+                        "factorValues": [],
+                        "name": "sample_2"
+                    },
+                    {
+                        "@id": "#sample/140697708637296",
+                        "characteristics": [],
+                        "factorValues": [],
+                        "name": "sample_3"
+                    }
+                ],
+                "sources": [
+                    {
+                        "@id": "#source/140696594402656",
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#f794a29c-030f-4b65-ad25-104886073730"
+                                },
+                                "value": {
+                                    "@id": "#0bd06472-71a8-4cea-8813-94a62bbc952a",
+                                    "annotationValue": "Homo sapiens",
+                                    "comments": [],
+                                    "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+                                    "termSource": "NCBI organismal classification"
+                                }
+                            }
+                        ],
+                        "name": "individual_1"
+                    },
+                    {
+                        "@id": "#source/140697708637152",
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#cfe9274a-aad4-432a-955f-28070f6c8900"
+                                },
+                                "value": {
+                                    "@id": "#f54cab0b-5c7e-4df4-82bf-fbbe4fe46f6d",
+                                    "annotationValue": "Homo sapiens",
+                                    "comments": [],
+                                    "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+                                    "termSource": "NCBI organismal classification"
+                                }
+                            }
+                        ],
+                        "name": "individual_2"
+                    },
+                    {
+                        "@id": "#source/140697708636960",
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#2a144552-f390-48ef-b2da-3156329a43e3"
+                                },
+                                "value": {
+                                    "@id": "#df564199-d603-48b0-bcb5-208241f424dc",
+                                    "annotationValue": "Homo sapiens",
+                                    "comments": [],
+                                    "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+                                    "termSource": "NCBI organismal classification"
+                                }
+                            }
+                        ],
+                        "name": "individual_3"
+                    }
+                ]
+            },
+            "people": [
+                {
+                    "address": "",
+                    "affiliation": "Institute of Molecular and Translational Medicine (IMTM), Palack\u00fd University Olomouc",
+                    "comments": [],
+                    "email": "",
+                    "fax": "",
+                    "firstName": "Marian",
+                    "lastName": "Hajduch",
+                    "midInitials": "",
+                    "phone": "",
+                    "roles": []
+                }
+            ],
+            "processSequence": [
+                {
+                    "@id": "#process/140696594403040",
+                    "comments": [],
+                    "date": "",
+                    "executesProtocol": {
+                        "@id": "#140696594400976"
+                    },
+                    "inputs": [
+                        {
+                            "@id": "#source/140696594402656"
+                        }
+                    ],
+                    "name": "samplecollection_1",
+                    "outputs": [
+                        {
+                            "@id": "#sample/140696594402944"
+                        }
+                    ],
+                    "parameterValues": [
+                        {
+                            "category": {
+                                "@id": "#140697708270592"
+                            },
+                            "value": {
+                                "@id": "#f7c04d86-3b69-43b9-8ced-da3b38e48deb",
+                                "annotationValue": "blood",
+                                "comments": [],
+                                "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                "termSource": "Uber-anatomy ontology"
+                            }
+                        }
+                    ],
+                    "performer": ""
+                },
+                {
+                    "@id": "#process/140697708637728",
+                    "comments": [],
+                    "date": "",
+                    "executesProtocol": {
+                        "@id": "#140696594400976"
+                    },
+                    "inputs": [
+                        {
+                            "@id": "#source/140697708637152"
+                        }
+                    ],
+                    "name": "samplecollection_2",
+                    "outputs": [
+                        {
+                            "@id": "#sample/140697708635664"
+                        }
+                    ],
+                    "parameterValues": [
+                        {
+                            "category": {
+                                "@id": "#140697708270592"
+                            },
+                            "value": {
+                                "@id": "#f6d2d988-67f5-4da4-a8b8-3c8c32f20d8a",
+                                "annotationValue": "blood",
+                                "comments": [],
+                                "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                "termSource": "Uber-anatomy ontology"
+                            }
+                        }
+                    ],
+                    "performer": ""
+                },
+                {
+                    "@id": "#process/140696594795680",
+                    "comments": [],
+                    "date": "",
+                    "executesProtocol": {
+                        "@id": "#140696594400976"
+                    },
+                    "inputs": [
+                        {
+                            "@id": "#source/140697708636960"
+                        }
+                    ],
+                    "name": "samplecollection_3",
+                    "outputs": [
+                        {
+                            "@id": "#sample/140697708637296"
+                        }
+                    ],
+                    "parameterValues": [
+                        {
+                            "category": {
+                                "@id": "#140697708270592"
+                            },
+                            "value": {
+                                "@id": "#1ec9cba2-8843-404f-8135-ea8819949451",
+                                "annotationValue": "blood",
+                                "comments": [],
+                                "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                "termSource": "Uber-anatomy ontology"
+                            }
+                        }
+                    ],
+                    "performer": ""
+                }
+            ],
+            "protocols": [
+                {
+                    "@id": "#140696594400976",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "sample_collection_protocol",
+                    "parameters": [
+                        {
+                            "@id": "#140697708270592",
+                            "parameterName": {
+                                "@id": "#41b9f102-2709-456c-bb6a-ea662a06fc0c",
+                                "annotationValue": "anatomical entity",
+                                "comments": [],
+                                "termAccession": "http://purl.obolibrary.org/obo/UBERON_0001062",
+                                "termSource": "Uber-anatomy ontology"
+                            }
+                        }
+                    ],
+                    "protocolType": {
+                        "@id": "#42392e78-9ddd-43ed-a905-e81623a5a209",
+                        "annotationValue": "sample collection",
+                        "comments": [],
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "uri": "",
+                    "version": ""
+                },
+                {
+                    "@id": "#140696594401120",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "DNA extraction",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#9c8b1128-3735-4324-8888-6dd43b014d48",
+                        "annotationValue": "DNA extraction",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0000257",
+                        "termSource": "OBI - Ontology for Biomedical Investigations"
+                    },
+                    "uri": "",
+                    "version": ""
+                },
+                {
+                    "@id": "#140696594401264",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "RNA extraction",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#ed21b471-2288-41d8-921c-331cb7fe2009",
+                        "annotationValue": "RNA extraction",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0666666",
+                        "termSource": "OBI - Ontology for Biomedical Investigations"
+                    },
+                    "uri": "",
+                    "version": ""
+                },
+                {
+                    "@id": "#140696594401408",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "Whole Genome Sequencing",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#501faf3b-d47b-4f1e-ba81-0c87887e680d",
+                        "annotationValue": "Whole Genome Sequencing",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C101294",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "uri": "",
+                    "version": ""
+                },
+                {
+                    "@id": "#140696594401552",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "mRNA Sequencing",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#eeabee27-1dd1-4598-b2a9-59b40e312a23",
+                        "annotationValue": "mRNA Sequencing",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C129432",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "uri": "",
+                    "version": ""
+                },
+                {
+                    "@id": "#140696594401696",
+                    "comments": [],
+                    "components": [],
+                    "description": "",
+                    "name": "MicroRNA Sequencing",
+                    "parameters": [],
+                    "protocolType": {
+                        "@id": "#43e8d694-88ca-4d6d-9796-3b788d8f5d0e",
+                        "annotationValue": "MicroRNA Sequencing",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C156057",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "uri": "",
+                    "version": ""
+                }
+            ],
+            "publicReleaseDate": "",
+            "publications": [],
+            "studyDesignDescriptors": [
+                {
+                    "@id": "#c0bb8946-7a84-4e32-9888-2a0eafbb1e44",
+                    "annotationValue": "Multi-omics study",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/PRIDE_0000461",
+                    "termSource": "PRIDE Controlled Vocabulary"
+                },
+                {
+                    "@id": "#354ea4ca-5bb5-405c-9f19-38cf061c2507",
+                    "annotationValue": "population based study design",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/OMIABIS_0001022",
+                    "termSource": "Ontologized MIABIS"
+                }
+            ],
+            "submissionDate": "",
+            "title": "Multi-omics data of a Czech population cohort",
+            "unitCategories": []
+        }
+    ],
+    "submissionDate": "",
+    "title": "EATRIS-Plus - Flagship in Personalised Medicine"
+}
