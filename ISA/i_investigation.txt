@@ -6,7 +6,7 @@ Term Source Description	A structured classification of molecular entities of bio
 INVESTIGATION
 Investigation Identifier	
 Investigation Title	EATRIS-Plus - Flagship in Personalised Medicine
-Investigation Description	EATRIS-Plus project aims to support the long-term sustainability of the European Research Infrastructure for Translational Medicine (EATRIS) by delivering innovative scientific tools to the research community, strengthening the EATRIS financial model, and reinforcing EATRIS’ leadership in the European Research Area in the field of Personalised Medicine (PM).
+Investigation Description	EATRIS-Plus project aims to support the long-term sustainability of the European Research Infrastructure for Translational Medicine (EATRIS) by delivering innovative scientific tools to the research community, strengthening the EATRIS financial model, and reinforcing EATRIS' leadership in the European Research Area in the field of Personalised Medicine (PM).
 Investigation Submission Date	
 Investigation Public Release Date	
 INVESTIGATION PUBLICATIONS
@@ -71,18 +71,13 @@ Study Assay Technology Platform	"OntologyAnnotation(
     term_source=OBI - Ontology for Biomedical Investigations
     term_accession=http://purl.obolibrary.org/obo/OBI_0002630
     comments=0 Comment objects
-)"	"OntologyAnnotation(
-    term=Micromass Quattro II triple-quadrupole mass spectrometer
-    term_source=
-    term_accession=
-    comments=0 Comment objects
-)"
+)"	Micromass Quattro II triple-quadrupole mass spectrometer
 STUDY PROTOCOLS
 Study Protocol Name	sample_collection_protocol	DNA extraction	RNA extraction	Whole Genome Sequencing	mRNA Sequencing	MicroRNA Sequencing	Extraction - Plasma acylcarnitine analysis	??Chromatography?? - Plasma acylcarnitine analysis	Mass spectrometry - Plasma acylcarnitine analysis	Data transformation - Plasma acylcarnitine analysis	Metabolite identification - Plasma acylcarnitine analysis
 Study Protocol Type	sample collection	DNA extraction	RNA extraction	Whole Genome Sequencing	mRNA Sequencing	MicroRNA Sequencing	extraction	chromatography	mass spectrometry	data transformation	metabolite identification
 Study Protocol Type Term Accession Number		http://purl.obolibrary.org/obo/OBI_0000257	http://purl.obolibrary.org/obo/OBI_0666666	http://purl.obolibrary.org/obo/NCIT_C101294	http://purl.obolibrary.org/obo/NCIT_C129432	http://purl.obolibrary.org/obo/NCIT_C156057	http://purl.obolibrary.org/obo/OBI_0302884	http://purl.obolibrary.org/obo/CHMO_0001000	http://purl.obolibrary.org/obo/CHMO_0000470	http://purl.obolibrary.org/obo/OBI_0200000	http://purl.obolibrary.org/obo/MI_2131
 Study Protocol Type Term Source REF		OBI - Ontology for Biomedical Investigations	OBI - Ontology for Biomedical Investigations	NCI Thesaurus OBO Edition	NCI Thesaurus OBO Edition	NCI Thesaurus OBO Edition	OBI - Ontology for Biomedical Investigations	CHMO - Chemical Methods Ontology	CHMO - Chemical Methods Ontology	OBI - Ontology for Biomedical Investigations	MI - Molecular Interactions Controlled Vocabulary
-Study Protocol Description							<i>Sample preparation:</i> To 50 µl plasma or serum were added 50 µl standard 1 (23.5 µmol/L <sup>2</sup>H<sub>3</sub>-free carnitine in H<sub>2</sub>O) and 50 µl standard 2 (10 µmol/L <sup>2</sup>H<sub>3</sub>-C<sub>2</sub>-, 2 µmol/L <sup>2</sup>H<sub>3</sub>-C<sub>8</sub>- and 2 µmol/L <sup>2</sup>H<sub>3</sub>-C<sub>16</sub>-carnitine in acetonitrile). Samples were mixed and subsequently deproteinized with 500 µl of acetonitrile and centrifuged. The resulting supernatant was dried under nitrogen at 45°C, and subsequently derivatized in 100 µl butanol-HCl for 15 min at 60°C. Samples were dried under nitrogen at 45°C and redissolved in 300 µl of acetonitrile. Prior to injection, 70 µl of the acetonitrile containing the acylcarnitines was mixed with 30 µl H<sub>2</sub>O.		<i>Sample introduction and ESI-MS/MS analysis:</i> Free carnitine and acylcarnitines were measured using scanning for precursor ions of mass 85 from 200 to 550 Da during 2 min on a Micromass Quattro II triple-quadrupole mass spectrometer, using a Gilson 231XL autosampler and a Hewlett-Packard HP-1100 HPLC pump, essentially as described previously (Rashed et al 1995a, 1997).	<i>Calibration:</i> Calibration curves were obtained for free carnitine in the range 5-100 µmol/L, for acetylcarnitine in the range 2-40 µmol/L and for all other available acylcarnitines in the range 0.25-6 µmol/L by adding standards to a normal plasma pool. All calibration curves were linear (r > 0.99, data not shown). For unsaturated and hydroxylated acylcarnitines an identical response to that of their saturated counterparts was assumed.	
+Study Protocol Description							<i>Sample preparation:</i> To 50 uL plasma or serum were added 50 uL standard 1 (23.5 umol/L <sup>2</sup>H<sub>3</sub>-free carnitine in H<sub>2</sub>O) and 50 uL standard 2 (10 umol/L <sup>2</sup>H<sub>3</sub>-C<sub>2</sub>-, 2 umol/L <sup>2</sup>H<sub>3</sub>-C<sub>8</sub>- and 2 umol/L <sup>2</sup>H<sub>3</sub>-C<sub>16</sub>-carnitine in acetonitrile). Samples were mixed and subsequently deproteinized with 500 uL of acetonitrile and centrifuged. The resulting supernatant was dried under nitrogen at 45°C, and subsequently derivatized in 100 uL butanol-HCl for 15 min at 60°C. Samples were dried under nitrogen at 45°C and redissolved in 300 uL of acetonitrile. Prior to injection, 70 uL of the acetonitrile containing the acylcarnitines was mixed with 30 uL H<sub>2</sub>O.		<i>Sample introduction and ESI-MS/MS analysis:</i> Free carnitine and acylcarnitines were measured using scanning for precursor ions of mass 85 from 200 to 550 Da during 2 min on a Micromass Quattro II triple-quadrupole mass spectrometer, using a Gilson 231XL autosampler and a Hewlett-Packard HP-1100 HPLC pump, essentially as described previously (Rashed et al 1995a, 1997).	<i>Calibration:</i> Calibration curves were obtained for free carnitine in the range 5-100 umol/L, for acetylcarnitine in the range 2-40 umol/L and for all other available acylcarnitines in the range 0.25-6 umol/L by adding standards to a normal plasma pool. All calibration curves were linear (r > 0.99, data not shown). For unsaturated and hydroxylated acylcarnitines an identical response to that of their saturated counterparts was assumed.	
 Study Protocol URI							https://doi.org/10.1023/A:1005587617745		https://doi.org/10.1023/A:1005587617745	https://doi.org/10.1023/A:1005587617745	
 Study Protocol Version											
 Study Protocol Parameters Name	anatomical entity								scan polarity;Scan m/z range;Instrument;Ion source;Mass analyzer		
@@ -100,7 +95,7 @@ Study Person Email
 Study Person Phone	
 Study Person Fax	
 Study Person Address	
-Study Person Affiliation	Institute of Molecular and Translational Medicine (IMTM), Palacký University Olomouc
+Study Person Affiliation	Institute of Molecular and Translational Medicine (IMTM), Palacky University Olomouc
 Study Person Roles	
 Study Person Roles Term Accession Number	
 Study Person Roles Term Source REF	

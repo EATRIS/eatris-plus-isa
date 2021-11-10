@@ -1,6 +1,6 @@
 {
     "comments": [],
-    "description": "EATRIS-Plus project aims to support the long-term sustainability of the European Research Infrastructure for Translational Medicine (EATRIS) by delivering innovative scientific tools to the research community, strengthening the EATRIS financial model, and reinforcing EATRIS\u2019 leadership in the European Research Area in the field of Personalised Medicine (PM).",
+    "description": "EATRIS-Plus project aims to support the long-term sustainability of the European Research Infrastructure for Translational Medicine (EATRIS) by delivering innovative scientific tools to the research community, strengthening the EATRIS financial model, and reinforcing EATRIS' leadership in the European Research Area in the field of Personalised Medicine (PM).",
     "identifier": "",
     "ontologySourceReferences": [
         {
@@ -125,7 +125,7 @@
             "phone": "",
             "roles": [
                 {
-                    "@id": "#476ee891-3eeb-4077-87ac-29a1ad9ab317",
+                    "@id": "#e26da372-e045-4f0e-9989-58a82edba460",
                     "annotationValue": "project management role",
                     "comments": [],
                     "termAccession": "http://purl.obolibrary.org/obo/CRO_0000065",
@@ -144,19 +144,19 @@
                     "comments": [],
                     "dataFiles": [
                         {
-                            "@id": "#data/rawdatafile-140363159750592",
+                            "@id": "#data/rawdatafile-139951626555552",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_1",
                             "type": "Raw Data File"
                         },
                         {
-                            "@id": "#data/rawdatafile-140363159752272",
+                            "@id": "#data/rawdatafile-139951626557136",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_2",
                             "type": "Raw Data File"
                         },
                         {
-                            "@id": "#data/rawdatafile-140363159442384",
+                            "@id": "#data/rawdatafile-139951626558720",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_3",
                             "type": "Raw Data File"
@@ -166,19 +166,19 @@
                     "materials": {
                         "otherMaterials": [
                             {
-                                "@id": "#material/extract-140363159750304",
+                                "@id": "#material/extract-139951626903360",
                                 "characteristics": [],
                                 "name": "DNA_sample_1",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140363159751936",
+                                "@id": "#material/extract-139951626556848",
                                 "characteristics": [],
                                 "name": "DNA_sample_2",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140363159442096",
+                                "@id": "#material/extract-139951626558432",
                                 "characteristics": [],
                                 "name": "DNA_sample_3",
                                 "type": "Extract Name"
@@ -186,19 +186,19 @@
                         ],
                         "samples": [
                             {
-                                "@id": "#sample/140364298614144",
+                                "@id": "#sample/139951627132256",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_1"
                             },
                             {
-                                "@id": "#sample/140364298614624",
+                                "@id": "#sample/139951627129328",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_2"
                             },
                             {
-                                "@id": "#sample/140364298615104",
+                                "@id": "#sample/139951626740496",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_3"
@@ -206,167 +206,167 @@
                         ]
                     },
                     "measurementType": {
-                        "@id": "#2c660644-ea93-45e6-bea4-ed95f5291ce2",
-                        "annotationValue": "DNA Sequence",
+                        "@id": "#e71fd88e-3f3e-4268-8909-13a0e65fb6c7",
+                        "annotationValue": "genome sequencing",
                         "comments": [],
-                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C13299",
-                        "termSource": "NCI Thesaurus OBO Edition"
+                        "termAccession": "",
+                        "termSource": ""
                     },
                     "processSequence": [
                         {
-                            "@id": "#process/140363159750400",
+                            "@id": "#process/139951626903456",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525552"
+                                "@id": "#139951626677408"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298614144"
+                                    "@id": "#sample/139951627132256"
                                 }
                             ],
                             "name": "DNA_extraction_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140363159750688"
+                                "@id": "#process/139951626555648"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159750304"
+                                    "@id": "#material/extract-139951626903360"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159750688",
+                            "@id": "#process/139951626555648",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525840"
+                                "@id": "#139951626677696"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159750304"
+                                    "@id": "#material/extract-139951626903360"
                                 }
                             ],
                             "name": "WGS_DNA_sample_1",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140363159750592"
+                                    "@id": "#data/rawdatafile-139951626555552"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159750400"
+                                "@id": "#process/139951626903456"
                             }
                         },
                         {
-                            "@id": "#process/140363159752032",
+                            "@id": "#process/139951626556944",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525552"
+                                "@id": "#139951626677408"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298614624"
+                                    "@id": "#sample/139951627129328"
                                 }
                             ],
                             "name": "DNA_extraction_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140363159752320"
+                                "@id": "#process/139951626557232"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159751936"
+                                    "@id": "#material/extract-139951626556848"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159752320",
+                            "@id": "#process/139951626557232",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525840"
+                                "@id": "#139951626677696"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159751936"
+                                    "@id": "#material/extract-139951626556848"
                                 }
                             ],
                             "name": "WGS_DNA_sample_2",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140363159752272"
+                                    "@id": "#data/rawdatafile-139951626557136"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159752032"
+                                "@id": "#process/139951626556944"
                             }
                         },
                         {
-                            "@id": "#process/140363159442192",
+                            "@id": "#process/139951626558528",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525552"
+                                "@id": "#139951626677408"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298615104"
+                                    "@id": "#sample/139951626740496"
                                 }
                             ],
                             "name": "DNA_extraction_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140363159442480"
+                                "@id": "#process/139951626558816"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159442096"
+                                    "@id": "#material/extract-139951626558432"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159442480",
+                            "@id": "#process/139951626558816",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525840"
+                                "@id": "#139951626677696"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159442096"
+                                    "@id": "#material/extract-139951626558432"
                                 }
                             ],
                             "name": "WGS_DNA_sample_3",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140363159442384"
+                                    "@id": "#data/rawdatafile-139951626558720"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159442192"
+                                "@id": "#process/139951626558528"
                             }
                         }
                     ],
                     "technologyPlatform": {
-                        "@id": "#b0dc1474-2a71-4dda-b329-7e1ab1b21907",
+                        "@id": "#34f22281-1783-4e47-98a9-4afb45eeb958",
                         "annotationValue": "Illumina platform",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/GENEPIO_0001923",
                         "termSource": "GENEPIO - Genomic Epidemiology Ontology"
                     },
                     "technologyType": {
-                        "@id": "#826b7622-4f45-4f17-99a4-e8a543733eca",
+                        "@id": "#54516787-a1a9-40d3-bd9c-10f4e822c107",
                         "annotationValue": "Whole Genome Sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C101294",
@@ -379,19 +379,19 @@
                     "comments": [],
                     "dataFiles": [
                         {
-                            "@id": "#data/rawdatafile-140363159750784",
+                            "@id": "#data/rawdatafile-139951626555696",
                             "comments": [],
                             "name": "RNAseq_BCL_RNA_sample_1",
                             "type": "Raw Data File"
                         },
                         {
-                            "@id": "#data/rawdatafile-140363159752416",
+                            "@id": "#data/rawdatafile-139951626557280",
                             "comments": [],
                             "name": "RNAseq_BCL_RNA_sample_2",
                             "type": "Raw Data File"
                         },
                         {
-                            "@id": "#data/rawdatafile-140363159442528",
+                            "@id": "#data/rawdatafile-139951626558864",
                             "comments": [],
                             "name": "RNAseq_BCL_RNA_sample_3",
                             "type": "Raw Data File"
@@ -401,19 +401,19 @@
                     "materials": {
                         "otherMaterials": [
                             {
-                                "@id": "#material/extract-140363159750448",
+                                "@id": "#material/extract-139951626903504",
                                 "characteristics": [],
                                 "name": "RNA_sample_1",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140363159752080",
+                                "@id": "#material/extract-139951626556992",
                                 "characteristics": [],
                                 "name": "RNA_sample_2",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140363159442240",
+                                "@id": "#material/extract-139951626558576",
                                 "characteristics": [],
                                 "name": "RNA_sample_3",
                                 "type": "Extract Name"
@@ -421,19 +421,19 @@
                         ],
                         "samples": [
                             {
-                                "@id": "#sample/140364298614144",
+                                "@id": "#sample/139951627132256",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_1"
                             },
                             {
-                                "@id": "#sample/140364298614624",
+                                "@id": "#sample/139951627129328",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_2"
                             },
                             {
-                                "@id": "#sample/140364298615104",
+                                "@id": "#sample/139951626740496",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_3"
@@ -441,7 +441,7 @@
                         ]
                     },
                     "measurementType": {
-                        "@id": "#0a22260e-4941-4b2f-8a63-fc7c4fc6fbde",
+                        "@id": "#f07bd883-1833-41dd-87c3-50f741817870",
                         "annotationValue": "Binary format",
                         "comments": [],
                         "termAccession": "http://edamontology.org/format_2333",
@@ -449,159 +449,159 @@
                     },
                     "processSequence": [
                         {
-                            "@id": "#process/140363159750544",
+                            "@id": "#process/139951626555504",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525696"
+                                "@id": "#139951626677552"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298614144"
+                                    "@id": "#sample/139951627132256"
                                 }
                             ],
                             "name": "RNA_extraction_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140363159750928"
+                                "@id": "#process/139951626555792"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159750448"
+                                    "@id": "#material/extract-139951626903504"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159750928",
+                            "@id": "#process/139951626555792",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525984"
+                                "@id": "#139951626677744"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159750448"
+                                    "@id": "#material/extract-139951626903504"
                                 }
                             ],
                             "name": "RNAseq_RNA_sample_1",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140363159750784"
+                                    "@id": "#data/rawdatafile-139951626555696"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159750544"
+                                "@id": "#process/139951626555504"
                             }
                         },
                         {
-                            "@id": "#process/140363159752176",
+                            "@id": "#process/139951626557088",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525696"
+                                "@id": "#139951626677552"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298614624"
+                                    "@id": "#sample/139951627129328"
                                 }
                             ],
                             "name": "RNA_extraction_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140363159752512"
+                                "@id": "#process/139951626557376"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159752080"
+                                    "@id": "#material/extract-139951626556992"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159752512",
+                            "@id": "#process/139951626557376",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525984"
+                                "@id": "#139951626677744"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159752080"
+                                    "@id": "#material/extract-139951626556992"
                                 }
                             ],
                             "name": "RNAseq_RNA_sample_2",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140363159752416"
+                                    "@id": "#data/rawdatafile-139951626557280"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159752176"
+                                "@id": "#process/139951626557088"
                             }
                         },
                         {
-                            "@id": "#process/140363159442336",
+                            "@id": "#process/139951626558672",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525696"
+                                "@id": "#139951626677552"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298615104"
+                                    "@id": "#sample/139951626740496"
                                 }
                             ],
                             "name": "RNA_extraction_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140363159442624"
+                                "@id": "#process/139951626558960"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159442240"
+                                    "@id": "#material/extract-139951626558576"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159442624",
+                            "@id": "#process/139951626558960",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159525984"
+                                "@id": "#139951626677744"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159442240"
+                                    "@id": "#material/extract-139951626558576"
                                 }
                             ],
                             "name": "RNAseq_RNA_sample_3",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140363159442528"
+                                    "@id": "#data/rawdatafile-139951626558864"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159442336"
+                                "@id": "#process/139951626558672"
                             }
                         }
                     ],
                     "technologyPlatform": {
-                        "@id": "#332d572f-1884-4e76-b915-ccab5216f3bb",
+                        "@id": "#4877d124-57f5-4f4c-9018-f1f584538f4e",
                         "annotationValue": "Illumina NovaSeq 6000",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0002630",
                         "termSource": "OBI - Ontology for Biomedical Investigations"
                     },
                     "technologyType": {
-                        "@id": "#e5f9b53f-3622-45b8-9d6c-71995262dc4b",
+                        "@id": "#63481764-3afd-4551-ab59-84f1c5ce6f78",
                         "annotationValue": "mRNA Sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C129432",
@@ -617,19 +617,19 @@
                     "materials": {
                         "otherMaterials": [
                             {
-                                "@id": "#material/extract-140363159750976",
+                                "@id": "#material/extract-139951626555840",
                                 "characteristics": [],
                                 "name": "prepared_sample_acylcarnitine_sample_1",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140363159752560",
+                                "@id": "#material/extract-139951626557424",
                                 "characteristics": [],
                                 "name": "prepared_sample_acylcarnitine_sample_2",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140363159442672",
+                                "@id": "#material/extract-139951626559008",
                                 "characteristics": [],
                                 "name": "prepared_sample_acylcarnitine_sample_3",
                                 "type": "Extract Name"
@@ -637,19 +637,19 @@
                         ],
                         "samples": [
                             {
-                                "@id": "#sample/140364298614144",
+                                "@id": "#sample/139951627132256",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_1"
                             },
                             {
-                                "@id": "#sample/140364298614624",
+                                "@id": "#sample/139951627129328",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_2"
                             },
                             {
-                                "@id": "#sample/140364298615104",
+                                "@id": "#sample/139951626740496",
                                 "characteristics": [],
                                 "factorValues": [],
                                 "name": "sample_3"
@@ -657,7 +657,7 @@
                         ]
                     },
                     "measurementType": {
-                        "@id": "#497e7c94-5c80-409a-b05b-ea7133beb349",
+                        "@id": "#85ca9f9d-4018-4c91-bd5c-9f1b39cbc579",
                         "annotationValue": "targeted metabolite profiling",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/MSIO_0000100",
@@ -665,71 +665,71 @@
                     },
                     "processSequence": [
                         {
-                            "@id": "#process/140363159751072",
+                            "@id": "#process/139951626555936",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526272"
+                                "@id": "#139951626678128"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298614144"
+                                    "@id": "#sample/139951627132256"
                                 }
                             ],
                             "name": "Sample_preparation_plasma_acylcarnitine_analysis_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140363159751840"
+                                "@id": "#process/139951626556704"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159750976"
+                                    "@id": "#material/extract-139951626555840"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159751840",
+                            "@id": "#process/139951626556704",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526512"
+                                "@id": "#139951626678224"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159750976"
+                                    "@id": "#material/extract-139951626555840"
                                 }
                             ],
                             "name": "MS_plasma_acylcarnitine_analysis_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140363159751888"
+                                "@id": "#process/139951626556752"
                             },
                             "outputs": [],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140363159524448"
+                                        "@id": "#139952741064224"
                                     },
                                     "value": "tbd"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159523872"
+                                        "@id": "#139951626676448"
                                     },
                                     "value": "tbd - distinguish between MS1 and MS2?"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159524784"
+                                        "@id": "#139951626676688"
                                     },
                                     "value": "Micromass Quattro II triple-quadrupole mass spectrometer"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159525024"
+                                        "@id": "#139951626676880"
                                     },
                                     "value": {
-                                        "@id": "#4f7c0e74-28a8-4cb1-b776-f387cb006fc8",
+                                        "@id": "#4f763ff0-50ea-4077-a9e3-1d23ca5de6aa",
                                         "annotationValue": "electrospray ionization",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/MS_1000073",
@@ -738,10 +738,10 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159525216"
+                                        "@id": "#139951626677072"
                                     },
                                     "value": {
-                                        "@id": "#624cfa0a-b795-4a6c-9d36-d29379937fd3",
+                                        "@id": "#f3767750-7485-4d2a-b49c-302358c72aa5",
                                         "annotationValue": "triple quadrupole mass spectrometer",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002021",
@@ -751,91 +751,110 @@
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159751072"
+                                "@id": "#process/139951626555936"
                             }
                         },
                         {
-                            "@id": "#process/140363159751888",
+                            "@id": "#process/139951626556752",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526704"
+                                "@id": "#139951626739920"
                             },
                             "inputs": [],
                             "name": "Data_transformation_plasma_acylcarnitine_analysis_sample_1",
+                            "nextProcess": {
+                                "@id": "#process/139951626556800"
+                            },
                             "outputs": [],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159751840"
+                                "@id": "#process/139951626556704"
                             }
                         },
                         {
-                            "@id": "#process/140363159752656",
+                            "@id": "#process/139951626556800",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526272"
+                                "@id": "#139951626740064"
+                            },
+                            "inputs": [],
+                            "name": "Metabolite_identification_plasma_acylcarnitine_analysis_sample_1",
+                            "outputs": [],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139951626556752"
+                            }
+                        },
+                        {
+                            "@id": "#process/139951626557520",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139951626678128"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298614624"
+                                    "@id": "#sample/139951627129328"
                                 }
                             ],
                             "name": "Sample_preparation_plasma_acylcarnitine_analysis_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140363159442000"
+                                "@id": "#process/139951626558288"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159752560"
+                                    "@id": "#material/extract-139951626557424"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159442000",
+                            "@id": "#process/139951626558288",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526512"
+                                "@id": "#139951626678224"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159752560"
+                                    "@id": "#material/extract-139951626557424"
                                 }
                             ],
                             "name": "MS_plasma_acylcarnitine_analysis_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140363159442048"
+                                "@id": "#process/139951626558336"
                             },
                             "outputs": [],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140363159524448"
+                                        "@id": "#139952741064224"
                                     },
                                     "value": "tbd"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159523872"
+                                        "@id": "#139951626676448"
                                     },
                                     "value": "tbd - distinguish between MS1 and MS2?"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159524784"
+                                        "@id": "#139951626676688"
                                     },
                                     "value": "Micromass Quattro II triple-quadrupole mass spectrometer"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159525024"
+                                        "@id": "#139951626676880"
                                     },
                                     "value": {
-                                        "@id": "#131c94d1-103d-41de-86b7-6170462ea9bc",
+                                        "@id": "#77aade02-f585-431b-a3a1-65c026d1880e",
                                         "annotationValue": "electrospray ionization",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/MS_1000073",
@@ -844,10 +863,10 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159525216"
+                                        "@id": "#139951626677072"
                                     },
                                     "value": {
-                                        "@id": "#716a13ab-1d7e-42e9-8e9f-a0d3786f87d1",
+                                        "@id": "#f674fabd-7f20-45f1-bd72-978be44df0fa",
                                         "annotationValue": "triple quadrupole mass spectrometer",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002021",
@@ -857,91 +876,110 @@
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159752656"
+                                "@id": "#process/139951626557520"
                             }
                         },
                         {
-                            "@id": "#process/140363159442048",
+                            "@id": "#process/139951626558336",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526704"
+                                "@id": "#139951626739920"
                             },
                             "inputs": [],
                             "name": "Data_transformation_plasma_acylcarnitine_analysis_sample_2",
+                            "nextProcess": {
+                                "@id": "#process/139951626558384"
+                            },
                             "outputs": [],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159442000"
+                                "@id": "#process/139951626558288"
                             }
                         },
                         {
-                            "@id": "#process/140363159442768",
+                            "@id": "#process/139951626558384",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526272"
+                                "@id": "#139951626740064"
+                            },
+                            "inputs": [],
+                            "name": "Metabolite_identification_plasma_acylcarnitine_analysis_sample_2",
+                            "outputs": [],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139951626558336"
+                            }
+                        },
+                        {
+                            "@id": "#process/139951626559104",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139951626678128"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140364298615104"
+                                    "@id": "#sample/139951626740496"
                                 }
                             ],
                             "name": "Sample_preparation_plasma_acylcarnitine_analysis_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140363159443536"
+                                "@id": "#process/139951626424768"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140363159442672"
+                                    "@id": "#material/extract-139951626559008"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140363159443536",
+                            "@id": "#process/139951626424768",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526512"
+                                "@id": "#139951626678224"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140363159442672"
+                                    "@id": "#material/extract-139951626559008"
                                 }
                             ],
                             "name": "MS_plasma_acylcarnitine_analysis_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140363159443584"
+                                "@id": "#process/139951626424816"
                             },
                             "outputs": [],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140363159524448"
+                                        "@id": "#139952741064224"
                                     },
                                     "value": "tbd"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159523872"
+                                        "@id": "#139951626676448"
                                     },
                                     "value": "tbd - distinguish between MS1 and MS2?"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159524784"
+                                        "@id": "#139951626676688"
                                     },
                                     "value": "Micromass Quattro II triple-quadrupole mass spectrometer"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159525024"
+                                        "@id": "#139951626676880"
                                     },
                                     "value": {
-                                        "@id": "#30c31bf0-c06c-4d26-a039-3f104b932b92",
+                                        "@id": "#2dd80280-826a-4fa1-a286-4ad439b925a3",
                                         "annotationValue": "electrospray ionization",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/MS_1000073",
@@ -950,10 +988,10 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140363159525216"
+                                        "@id": "#139951626677072"
                                     },
                                     "value": {
-                                        "@id": "#ffdf9570-8582-4436-b38b-1cbbb5da10a2",
+                                        "@id": "#0c64efdb-f7d8-4f59-9024-30ecf8bdd198",
                                         "annotationValue": "triple quadrupole mass spectrometer",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002021",
@@ -963,35 +1001,48 @@
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159442768"
+                                "@id": "#process/139951626559104"
                             }
                         },
                         {
-                            "@id": "#process/140363159443584",
+                            "@id": "#process/139951626424816",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140363159526704"
+                                "@id": "#139951626739920"
                             },
                             "inputs": [],
                             "name": "Data_transformation_plasma_acylcarnitine_analysis_sample_3",
+                            "nextProcess": {
+                                "@id": "#process/139951626424864"
+                            },
                             "outputs": [],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140363159443536"
+                                "@id": "#process/139951626424768"
+                            }
+                        },
+                        {
+                            "@id": "#process/139951626424864",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139951626740064"
+                            },
+                            "inputs": [],
+                            "name": "Metabolite_identification_plasma_acylcarnitine_analysis_sample_3",
+                            "outputs": [],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139951626424816"
                             }
                         }
                     ],
-                    "technologyPlatform": {
-                        "@id": "#62daf3ef-eb08-49bc-8c6c-c723336eab3f",
-                        "annotationValue": "Micromass Quattro II triple-quadrupole mass spectrometer",
-                        "comments": [],
-                        "termAccession": "",
-                        "termSource": ""
-                    },
+                    "technologyPlatform": "Micromass Quattro II triple-quadrupole mass spectrometer",
                     "technologyType": {
-                        "@id": "#61c3c5e0-e249-4d8c-b3b6-32b1a0a5ec89",
+                        "@id": "#b4d2c969-56ae-4df9-91d3-3f3c18d6c8ec",
                         "annotationValue": "electrospray ionisation tandem mass spectrometry",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000577",
@@ -1010,19 +1061,19 @@
                 "otherMaterials": [],
                 "samples": [
                     {
-                        "@id": "#sample/140364298614144",
+                        "@id": "#sample/139951627132256",
                         "characteristics": [],
                         "factorValues": [],
                         "name": "sample_1"
                     },
                     {
-                        "@id": "#sample/140364298614624",
+                        "@id": "#sample/139951627129328",
                         "characteristics": [],
                         "factorValues": [],
                         "name": "sample_2"
                     },
                     {
-                        "@id": "#sample/140364298615104",
+                        "@id": "#sample/139951626740496",
                         "characteristics": [],
                         "factorValues": [],
                         "name": "sample_3"
@@ -1030,14 +1081,14 @@
                 ],
                 "sources": [
                     {
-                        "@id": "#source/140364298614480",
+                        "@id": "#source/139951627132352",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#30b103ef-5ab6-4caa-b59e-7af72e1e820d"
+                                    "@id": "#ebdfe821-d2a4-478b-8c0b-297c999fd8c5"
                                 },
                                 "value": {
-                                    "@id": "#c699a9d2-dd2d-46e4-b3e5-971b3b51d0f4",
+                                    "@id": "#e7b81363-fa21-4fa9-9095-d55a845cba07",
                                     "annotationValue": "Homo sapiens",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
@@ -1048,14 +1099,14 @@
                         "name": "individual_1"
                     },
                     {
-                        "@id": "#source/140364298615536",
+                        "@id": "#source/139951627130672",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#67634bce-b8d2-428d-bf32-618aaeb32fd3"
+                                    "@id": "#9a487bcb-0710-4fa7-bb42-957d439b188a"
                                 },
                                 "value": {
-                                    "@id": "#4a2ba576-b28a-4fb6-bbf6-066322832c5b",
+                                    "@id": "#9ae1a4a9-e19a-4a64-a2df-59dccca483cc",
                                     "annotationValue": "Homo sapiens",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
@@ -1066,14 +1117,14 @@
                         "name": "individual_2"
                     },
                     {
-                        "@id": "#source/140364298613232",
+                        "@id": "#source/139951626740160",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#36bffe21-d0e5-49b6-8584-b9b4dd4325be"
+                                    "@id": "#6f067d3c-013d-4994-89c0-ae4f8d6a0343"
                                 },
                                 "value": {
-                                    "@id": "#40b37eb8-f2c1-4970-a028-5c5e7091bc51",
+                                    "@id": "#057632a0-f280-4d03-ac92-3fb493d47d12",
                                     "annotationValue": "Homo sapiens",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
@@ -1088,7 +1139,7 @@
             "people": [
                 {
                     "address": "",
-                    "affiliation": "Institute of Molecular and Translational Medicine (IMTM), Palack\u00fd University Olomouc",
+                    "affiliation": "Institute of Molecular and Translational Medicine (IMTM), Palacky University Olomouc",
                     "comments": [],
                     "email": "",
                     "fax": "",
@@ -1101,30 +1152,30 @@
             ],
             "processSequence": [
                 {
-                    "@id": "#process/140364298615152",
+                    "@id": "#process/139951627132544",
                     "comments": [],
                     "date": "",
                     "executesProtocol": {
-                        "@id": "#140363159525408"
+                        "@id": "#139951626677264"
                     },
                     "inputs": [
                         {
-                            "@id": "#source/140364298614480"
+                            "@id": "#source/139951627132352"
                         }
                     ],
                     "name": "samplecollection_1",
                     "outputs": [
                         {
-                            "@id": "#sample/140364298614144"
+                            "@id": "#sample/139951627132256"
                         }
                     ],
                     "parameterValues": [
                         {
                             "category": {
-                                "@id": "#140363159524256"
+                                "@id": "#139951626676256"
                             },
                             "value": {
-                                "@id": "#9cbcca99-7d56-42c8-9c72-18e5eb07bd3f",
+                                "@id": "#964192a1-f48d-4e82-9cdf-51b7b1c81a26",
                                 "annotationValue": "blood",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1135,30 +1186,30 @@
                     "performer": ""
                 },
                 {
-                    "@id": "#process/140364298614864",
+                    "@id": "#process/139951626740352",
                     "comments": [],
                     "date": "",
                     "executesProtocol": {
-                        "@id": "#140363159525408"
+                        "@id": "#139951626677264"
                     },
                     "inputs": [
                         {
-                            "@id": "#source/140364298615536"
+                            "@id": "#source/139951627130672"
                         }
                     ],
                     "name": "samplecollection_2",
                     "outputs": [
                         {
-                            "@id": "#sample/140364298614624"
+                            "@id": "#sample/139951627129328"
                         }
                     ],
                     "parameterValues": [
                         {
                             "category": {
-                                "@id": "#140363159524256"
+                                "@id": "#139951626676256"
                             },
                             "value": {
-                                "@id": "#22f7e9f2-b6cb-4dbf-8deb-5fa5a85481c0",
+                                "@id": "#f3c32a52-9b2b-469a-9f81-c0cee5d58363",
                                 "annotationValue": "blood",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1169,30 +1220,30 @@
                     "performer": ""
                 },
                 {
-                    "@id": "#process/140363159687328",
+                    "@id": "#process/139951626740640",
                     "comments": [],
                     "date": "",
                     "executesProtocol": {
-                        "@id": "#140363159525408"
+                        "@id": "#139951626677264"
                     },
                     "inputs": [
                         {
-                            "@id": "#source/140364298613232"
+                            "@id": "#source/139951626740160"
                         }
                     ],
                     "name": "samplecollection_3",
                     "outputs": [
                         {
-                            "@id": "#sample/140364298615104"
+                            "@id": "#sample/139951626740496"
                         }
                     ],
                     "parameterValues": [
                         {
                             "category": {
-                                "@id": "#140363159524256"
+                                "@id": "#139951626676256"
                             },
                             "value": {
-                                "@id": "#46e37dcf-108c-41e9-ba17-d44e540413ba",
+                                "@id": "#ec66f832-161b-4481-8bff-b4ca9d4da7f9",
                                 "annotationValue": "blood",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1205,16 +1256,16 @@
             ],
             "protocols": [
                 {
-                    "@id": "#140363159525408",
+                    "@id": "#139951626677264",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "sample_collection_protocol",
                     "parameters": [
                         {
-                            "@id": "#140363159524256",
+                            "@id": "#139951626676256",
                             "parameterName": {
-                                "@id": "#4f64a928-f335-49a7-9251-e6ac1c5a741f",
+                                "@id": "#5b4ffea9-6328-4b13-9573-c052e9a35259",
                                 "annotationValue": "anatomical entity",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/UBERON_0001062",
@@ -1223,7 +1274,7 @@
                         }
                     ],
                     "protocolType": {
-                        "@id": "#f56c71b7-f595-47b7-a7b9-b9d74f2524f5",
+                        "@id": "#b83276cd-c545-41fb-9e80-7f1aea6f7d13",
                         "annotationValue": "sample collection",
                         "comments": [],
                         "termAccession": "",
@@ -1233,14 +1284,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159525552",
+                    "@id": "#139951626677408",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "DNA extraction",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#4709d344-8319-4e14-ad68-9848e6b45984",
+                        "@id": "#484aa0ea-066f-448b-880c-2b2cc62d8a00",
                         "annotationValue": "DNA extraction",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0000257",
@@ -1250,14 +1301,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159525696",
+                    "@id": "#139951626677552",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "RNA extraction",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#3e0f9239-93dd-4881-b54e-9286a441710b",
+                        "@id": "#27fb4847-0f75-4626-9ba1-12c17f59465f",
                         "annotationValue": "RNA extraction",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0666666",
@@ -1267,14 +1318,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159525840",
+                    "@id": "#139951626677696",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "Whole Genome Sequencing",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#884acad3-dd21-4946-986b-f1a15e82083f",
+                        "@id": "#b092cfdb-2cd7-44b8-90bf-408742bd91b9",
                         "annotationValue": "Whole Genome Sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C101294",
@@ -1284,14 +1335,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159525984",
+                    "@id": "#139951626677744",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "mRNA Sequencing",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#c8d21838-f536-4b7b-ad11-3a813a9b72f0",
+                        "@id": "#6c734d5b-cee7-4a68-9c33-b8d513301271",
                         "annotationValue": "mRNA Sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C129432",
@@ -1301,14 +1352,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159526032",
+                    "@id": "#139951626677984",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "MicroRNA Sequencing",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#d438e9fd-eb89-4e63-8be2-6dde792bbf01",
+                        "@id": "#6d594733-46be-407d-9bea-191055aa8689",
                         "annotationValue": "MicroRNA Sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C156057",
@@ -1318,14 +1369,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159526272",
+                    "@id": "#139951626678128",
                     "comments": [],
                     "components": [],
-                    "description": "<i>Sample preparation:</i> To 50 \u00b5l plasma or serum were added 50 \u00b5l standard 1 (23.5 \u00b5mol/L <sup>2</sup>H<sub>3</sub>-free carnitine in H<sub>2</sub>O) and 50 \u00b5l standard 2 (10 \u00b5mol/L <sup>2</sup>H<sub>3</sub>-C<sub>2</sub>-, 2 \u00b5mol/L <sup>2</sup>H<sub>3</sub>-C<sub>8</sub>- and 2 \u00b5mol/L <sup>2</sup>H<sub>3</sub>-C<sub>16</sub>-carnitine in acetonitrile). Samples were mixed and subsequently deproteinized with 500 \u00b5l of acetonitrile and centrifuged. The resulting supernatant was dried under nitrogen at 45\u00b0C, and subsequently derivatized in 100 \u00b5l butanol-HCl for 15 min at 60\u00b0C. Samples were dried under nitrogen at 45\u00b0C and redissolved in 300 \u00b5l of acetonitrile. Prior to injection, 70 \u00b5l of the acetonitrile containing the acylcarnitines was mixed with 30 \u00b5l H<sub>2</sub>O.",
+                    "description": "<i>Sample preparation:</i> To 50 uL plasma or serum were added 50 uL standard 1 (23.5 umol/L <sup>2</sup>H<sub>3</sub>-free carnitine in H<sub>2</sub>O) and 50 uL standard 2 (10 umol/L <sup>2</sup>H<sub>3</sub>-C<sub>2</sub>-, 2 umol/L <sup>2</sup>H<sub>3</sub>-C<sub>8</sub>- and 2 umol/L <sup>2</sup>H<sub>3</sub>-C<sub>16</sub>-carnitine in acetonitrile). Samples were mixed and subsequently deproteinized with 500 uL of acetonitrile and centrifuged. The resulting supernatant was dried under nitrogen at 45\u00b0C, and subsequently derivatized in 100 uL butanol-HCl for 15 min at 60\u00b0C. Samples were dried under nitrogen at 45\u00b0C and redissolved in 300 uL of acetonitrile. Prior to injection, 70 uL of the acetonitrile containing the acylcarnitines was mixed with 30 uL H<sub>2</sub>O.",
                     "name": "Extraction - Plasma acylcarnitine analysis",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#f2e2403e-ad5b-40ce-9034-bf908a49b2df",
+                        "@id": "#d288eb96-6df9-4ff6-a5d8-f0565fda210b",
                         "annotationValue": "extraction",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0302884",
@@ -1335,14 +1386,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159526416",
+                    "@id": "#139952741064560",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "??Chromatography?? - Plasma acylcarnitine analysis",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#6ac4ce1b-7ab2-419c-9766-1d0d7ec167b3",
+                        "@id": "#40d51130-2d37-43f3-a770-cc3a29720334",
                         "annotationValue": "chromatography",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001000",
@@ -1352,16 +1403,16 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159526512",
+                    "@id": "#139951626678224",
                     "comments": [],
                     "components": [],
                     "description": "<i>Sample introduction and ESI-MS/MS analysis:</i> Free carnitine and acylcarnitines were measured using scanning for precursor ions of mass 85 from 200 to 550 Da during 2 min on a Micromass Quattro II triple-quadrupole mass spectrometer, using a Gilson 231XL autosampler and a Hewlett-Packard HP-1100 HPLC pump, essentially as described previously (Rashed et al 1995a, 1997).",
                     "name": "Mass spectrometry - Plasma acylcarnitine analysis",
                     "parameters": [
                         {
-                            "@id": "#140363159524448",
+                            "@id": "#139952741064224",
                             "parameterName": {
-                                "@id": "#57518252-c178-4783-8ae5-6f6a87845de1",
+                                "@id": "#269cb2d0-ddb0-4f68-8a9b-2a5c0cc720e3",
                                 "annotationValue": "scan polarity",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/MS_1000465",
@@ -1369,9 +1420,9 @@
                             }
                         },
                         {
-                            "@id": "#140363159523872",
+                            "@id": "#139951626676448",
                             "parameterName": {
-                                "@id": "#afd00166-4a6e-4ba7-8533-d92d94c933f4",
+                                "@id": "#1d079a87-1a75-441a-adcf-7738494b4432",
                                 "annotationValue": "Scan m/z range",
                                 "comments": [],
                                 "termAccession": "",
@@ -1379,9 +1430,9 @@
                             }
                         },
                         {
-                            "@id": "#140363159524784",
+                            "@id": "#139951626676688",
                             "parameterName": {
-                                "@id": "#2c7ad034-539c-48f0-ab25-a2e5d378bf65",
+                                "@id": "#1407d8fe-bb0f-4f91-b818-728124a31706",
                                 "annotationValue": "Instrument",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/MS_1000463",
@@ -1389,9 +1440,9 @@
                             }
                         },
                         {
-                            "@id": "#140363159525024",
+                            "@id": "#139951626676880",
                             "parameterName": {
-                                "@id": "#9de4105e-f294-44c2-a249-7bc415cae298",
+                                "@id": "#048003b4-2b4c-4868-ae72-8d02b6e6c848",
                                 "annotationValue": "Ion source",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000960",
@@ -1399,9 +1450,9 @@
                             }
                         },
                         {
-                            "@id": "#140363159525216",
+                            "@id": "#139951626677072",
                             "parameterName": {
-                                "@id": "#0c4b4ba2-2320-48a4-90ad-31b308f873e6",
+                                "@id": "#630adc2f-30cf-40c1-a299-bb7e8e109cbf",
                                 "annotationValue": "Mass analyzer",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/MS_1000451",
@@ -1410,7 +1461,7 @@
                         }
                     ],
                     "protocolType": {
-                        "@id": "#e33d08e8-2452-4abf-ab47-517537e91289",
+                        "@id": "#b883d917-2424-4737-ac59-0bcc0d49eb72",
                         "annotationValue": "mass spectrometry",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000470",
@@ -1420,14 +1471,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159526704",
+                    "@id": "#139951626739920",
                     "comments": [],
                     "components": [],
-                    "description": "<i>Calibration:</i> Calibration curves were obtained for free carnitine in the range 5-100 \u00b5mol/L, for acetylcarnitine in the range 2-40 \u00b5mol/L and for all other available acylcarnitines in the range 0.25-6 \u00b5mol/L by adding standards to a normal plasma pool. All calibration curves were linear (r > 0.99, data not shown). For unsaturated and hydroxylated acylcarnitines an identical response to that of their saturated counterparts was assumed.",
+                    "description": "<i>Calibration:</i> Calibration curves were obtained for free carnitine in the range 5-100 umol/L, for acetylcarnitine in the range 2-40 umol/L and for all other available acylcarnitines in the range 0.25-6 umol/L by adding standards to a normal plasma pool. All calibration curves were linear (r > 0.99, data not shown). For unsaturated and hydroxylated acylcarnitines an identical response to that of their saturated counterparts was assumed.",
                     "name": "Data transformation - Plasma acylcarnitine analysis",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#8fa3fc57-f1b0-4698-80be-64ed496e552f",
+                        "@id": "#724d1020-33ac-4370-9bc3-c41e6e9f65d2",
                         "annotationValue": "data transformation",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0200000",
@@ -1437,14 +1488,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140363159526848",
+                    "@id": "#139951626740064",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "Metabolite identification - Plasma acylcarnitine analysis",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#e3a2b38a-45a2-43d7-a7ac-a7a8c843a668",
+                        "@id": "#e95bbd9e-c431-4e0f-85b3-d728089d5ed5",
                         "annotationValue": "metabolite identification",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/MI_2131",
@@ -1458,14 +1509,14 @@
             "publications": [],
             "studyDesignDescriptors": [
                 {
-                    "@id": "#ca4e21b9-8613-40cb-9e65-9f53a93ee5bb",
+                    "@id": "#06251fd0-7a68-4f9c-84fc-f910bcf9fb36",
                     "annotationValue": "Multi-omics study",
                     "comments": [],
                     "termAccession": "http://purl.obolibrary.org/obo/PRIDE_0000461",
                     "termSource": "PRIDE Controlled Vocabulary"
                 },
                 {
-                    "@id": "#64b10d1b-0191-48a2-982d-22be6c03b27c",
+                    "@id": "#0be56548-097b-4bca-aead-eb9c9902c2ed",
                     "annotationValue": "population based study design",
                     "comments": [],
                     "termAccession": "http://purl.obolibrary.org/obo/OMIABIS_0001022",
