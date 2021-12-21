@@ -1,4 +1,4 @@
-Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Protocol REF	Parameter Value[anatomical entity]	Term Source REF	Term Accession Number	Sample Name
-individual_1	Homo sapiens	NCBI organismal classification	http://purl.obolibrary.org/obo/NCBITaxon_9606	sample_collection_protocol	blood	Uber-anatomy ontology	http://purl.obolibrary.org/obo/UBERON_0000178	sample_1
-individual_2	Homo sapiens	NCBI organismal classification	http://purl.obolibrary.org/obo/NCBITaxon_9606	sample_collection_protocol	blood	Uber-anatomy ontology	http://purl.obolibrary.org/obo/UBERON_0000178	sample_2
-individual_3	Homo sapiens	NCBI organismal classification	http://purl.obolibrary.org/obo/NCBITaxon_9606	sample_collection_protocol	blood	Uber-anatomy ontology	http://purl.obolibrary.org/obo/UBERON_0000178	sample_3
+Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Protocol REF	Sample Name	Characteristics[anatomical entity]	Term Source REF	Term Accession Number
+individual_1	Homo sapiens	NCBI organismal classification	http://purl.obolibrary.org/obo/NCBITaxon_9606	sample_collection_protocol	sample_1	blood	Uber-anatomy ontology	http://purl.obolibrary.org/obo/UBERON_0000178
+individual_2	Homo sapiens	NCBI organismal classification	http://purl.obolibrary.org/obo/NCBITaxon_9606	sample_collection_protocol	sample_2	blood	Uber-anatomy ontology	http://purl.obolibrary.org/obo/UBERON_0000178
+individual_3	Homo sapiens	NCBI organismal classification	http://purl.obolibrary.org/obo/NCBITaxon_9606	sample_collection_protocol	sample_3	blood	Uber-anatomy ontology	http://purl.obolibrary.org/obo/UBERON_0000178

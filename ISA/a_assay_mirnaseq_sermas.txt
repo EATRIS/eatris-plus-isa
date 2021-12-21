@@ -1,0 +1,4 @@
+Sample Name	Protocol REF	Extract Name	Protocol REF	Extract Name	Protocol REF	Raw Data File	Protocol REF	Derived Data File
+sample_1	RNA extraction	cDNA_sample_1	Reverse Transcription	cDNA_sample_1	miRNA array	miRNAqPCR_rawdata_sample_1_Replicate_1	miRNA array	miRNAqPCR_normalizationdata_sample_1_Replicate_1
+sample_2	RNA extraction	cDNA_sample_2	Reverse Transcription	cDNA_sample_2	miRNA array	miRNAqPCR_rawdata_sample_2_Replicate_1	miRNA array	miRNAqPCR_normalizationdata_sample_2_Replicate_1
+sample_3	RNA extraction	cDNA_sample_3	Reverse Transcription	cDNA_sample_3	miRNA array	miRNAqPCR_rawdata_sample_3_Replicate_1	miRNA array	miRNAqPCR_normalizationdata_sample_3_Replicate_1

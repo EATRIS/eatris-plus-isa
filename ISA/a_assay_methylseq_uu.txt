@@ -1,0 +1,4 @@
+Sample Name	Protocol REF	Extract Name	Protocol REF	Raw Data File R1	Raw Data File R2
+sample_1	DNA extraction	DNA_sample_1	EM-seq	EMseq_rawdata_DNA_sample_1_R1.fastq	EMseq_rawdata_DNA_sample_1_R2.fastq
+sample_2	DNA extraction	DNA_sample_2	EM-seq	EMseq_rawdata_DNA_sample_2_R1.fastq	EMseq_rawdata_DNA_sample_2_R2.fastq
+sample_3	DNA extraction	DNA_sample_3	EM-seq	EMseq_rawdata_DNA_sample_3_R1.fastq	EMseq_rawdata_DNA_sample_3_R2.fastq
