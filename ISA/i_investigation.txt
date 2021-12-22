@@ -54,19 +54,24 @@ Study Factor Type
 Study Factor Type Term Accession Number
 Study Factor Type Term Source REF
 STUDY ASSAYS
-Study Assay File Name	a_assay_genomics_imtm.txt	a_assay_methylseq_uu.txt	a_assay_rnaseq_fimm.txt	a_assay_mirnaseq_sermas.txt	a_assay_metabolomics_acylcarnitines_rumc.txt
-Study Assay Measurement Type	DNA Sequence	methylation profiling by high throughput sequencing	transcription profiling	 transcription profiling by RT-PCR assay	targeted metabolite profiling
-Study Assay Measurement Type Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C13299	http://www.ebi.ac.uk/efo/EFO_0002761	http://www.ebi.ac.uk/efo/EFO_0001032	http://purl.obolibrary.org/obo/OBI_0001361	http://purl.obolibrary.org/obo/MSIO_0000100
-Study Assay Measurement Type Term Source REF	NCI Thesaurus OBO Edition	EFO - Experimental Factor Ontology	EFO - Experimental Factor Ontology	OBI - Ontology for Biomedical Investigations	MS - Mass spectrometry ontology
-Study Assay Technology Type	Whole Genome Sequencing		nucleic acid sequencing	microRNA profiling by RT-PCR	electrospray ionisation tandem mass spectrometry
-Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C101294		http://purl.obolibrary.org/obo/NCIT_C18881	http://www.ebi.ac.uk/efo/EFO_0007687	http://purl.obolibrary.org/obo/CHMO_0000577
-Study Assay Technology Type Term Source REF	NCI Thesaurus OBO Edition		NCI Thesaurus OBO Edition	EFO - Experimental Factor Ontology	CHMO - Chemical Methods Ontology
+Study Assay File Name	a_assay_genomics_imtm.txt	a_assay_methylseq_uu.txt	a_assay_rnaseq_fimm.txt	a_assay_mirnaseq_fimm.txt	a_assay_mirnaseq_sermas.txt	a_assay_metabolomics_acylcarnitines_rumc.txt	a_assay_metabolomics_aminoacids_mumc.txt
+Study Assay Measurement Type	Whole Genome Sequencing	DNA methylation profiling by high throughput sequencing assay	transcription profiling	transcription profiling	 transcription profiling by RT-PCR assay	targeted metabolite profiling	targeted metabolite profiling
+Study Assay Measurement Type Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C101294	http://purl.obolibrary.org/obo/OBI_0001266	http://www.ebi.ac.uk/efo/EFO_0001032	http://www.ebi.ac.uk/efo/EFO_0001032	http://purl.obolibrary.org/obo/OBI_0001361	http://purl.obolibrary.org/obo/MSIO_0000100	http://purl.obolibrary.org/obo/MSIO_0000100
+Study Assay Measurement Type Term Source REF	NCI Thesaurus OBO Edition	OBI - Ontology for Biomedical Investigations	EFO - Experimental Factor Ontology	EFO - Experimental Factor Ontology	OBI - Ontology for Biomedical Investigations	MS - Mass spectrometry ontology	MS - Mass spectrometry ontology
+Study Assay Technology Type	Nucleic Acid Sequencing	Nucleic Acid Sequencing	Nucleic Acid Sequencing	Nucleic Acid Sequencing	microRNA profiling by RT-PCR	mass spectrometry	mass spectrometry
+Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C18881	http://purl.obolibrary.org/obo/NCIT_C18881	http://purl.obolibrary.org/obo/NCIT_C18881	http://purl.obolibrary.org/obo/NCIT_C18881	http://www.ebi.ac.uk/efo/EFO_0007687	http://purl.obolibrary.org/obo/CHMO_0000470	http://purl.obolibrary.org/obo/CHMO_0000470
+Study Assay Technology Type Term Source REF	NCI Thesaurus OBO Edition	NCI Thesaurus OBO Edition	NCI Thesaurus OBO Edition	NCI Thesaurus OBO Edition	EFO - Experimental Factor Ontology	CHMO - Chemical Methods Ontology	CHMO - Chemical Methods Ontology
 Study Assay Technology Platform	"OntologyAnnotation(
     term=Illumina platform
     term_source=GENEPIO - Genomic Epidemiology Ontology
     term_accession=http://purl.obolibrary.org/obo/GENEPIO_0001923
     comments=0 Comment objects
-)"		"OntologyAnnotation(
+)"	NEBNext Enzymatic Methyl-seq (EM-seq)	"OntologyAnnotation(
+    term=Illumina NovaSeq 6000
+    term_source=OBI - Ontology for Biomedical Investigations
+    term_accession=http://purl.obolibrary.org/obo/OBI_0002630
+    comments=0 Comment objects
+)"	"OntologyAnnotation(
     term=Illumina NovaSeq 6000
     term_source=OBI - Ontology for Biomedical Investigations
     term_accession=http://purl.obolibrary.org/obo/OBI_0002630
@@ -76,7 +81,7 @@ Study Assay Technology Platform	"OntologyAnnotation(
     term_source=BAO - BioAssay Ontology
     term_accession=http://www.bioassayontology.org/bao#BAO_0150063
     comments=0 Comment objects
-)"	Micromass Quattro II triple-quadrupole mass spectrometer
+)"	Micromass Quattro II triple-quadrupole mass spectrometer	Micromass Quattro Premier XE Tandem Mass Spectrometer
 STUDY PROTOCOLS
 Study Protocol Name	sample_collection_protocol	DNA extraction	RNA extraction	Whole Genome Sequencing	mRNA library preparation	mRNA Sequencing	MicroRNA Sequencing	Reverse Transcription	miRNA array	Data Normalization	Extraction	Chromatography	Mass spectrometry	Data transformation - Plasma acylcarnitine analysis	Metabolite identification - Plasma acylcarnitine analysis	EM-seq
 Study Protocol Type	sample collection	DNA extraction	RNA extraction	Whole Genome Sequencing	library preparation protocol	nucleic acid sequencing	MicroRNA Sequencing	artificially induced reverse transcription	microRNA profiling by RT-PCR	Constant Normalization	extraction	chromatography	mass spectrometry	data transformation	metabolite identification	methylation profiling by high throughput sequencing

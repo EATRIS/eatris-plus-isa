@@ -137,7 +137,7 @@
             "phone": "",
             "roles": [
                 {
-                    "@id": "#4c5a7d29-a00a-4fa4-aa84-b2c564611549",
+                    "@id": "#ad45a65f-3d35-42a2-be19-140034ab52df",
                     "annotationValue": "project management role",
                     "comments": [],
                     "termAccession": "http://purl.obolibrary.org/obo/CRO_0000065",
@@ -156,37 +156,37 @@
                     "comments": [],
                     "dataFiles": [
                         {
-                            "@id": "#data/rawdatafiler1-140201164881440",
+                            "@id": "#data/rawdatafiler1-139907678719808",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_1_R1.fastq.gz",
                             "type": "Raw Data File R1"
                         },
                         {
-                            "@id": "#data/rawdatafiler2-140201164881536",
+                            "@id": "#data/rawdatafiler2-139907678719904",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_1_R2.fastq.gz",
                             "type": "Raw Data File R2"
                         },
                         {
-                            "@id": "#data/rawdatafiler1-140201164864240",
+                            "@id": "#data/rawdatafiler1-139907678673936",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_2_R1.fastq.gz",
                             "type": "Raw Data File R1"
                         },
                         {
-                            "@id": "#data/rawdatafiler2-140201164864336",
+                            "@id": "#data/rawdatafiler2-139907678674032",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_2_R2.fastq.gz",
                             "type": "Raw Data File R2"
                         },
                         {
-                            "@id": "#data/rawdatafiler1-140201164867664",
+                            "@id": "#data/rawdatafiler1-139907678710032",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_3_R1.fastq.gz",
                             "type": "Raw Data File R1"
                         },
                         {
-                            "@id": "#data/rawdatafiler2-140201164867760",
+                            "@id": "#data/rawdatafiler2-139907678710128",
                             "comments": [],
                             "name": "WGS_rawdata_DNA_sample_3_R2.fastq.gz",
                             "type": "Raw Data File R2"
@@ -196,19 +196,19 @@
                     "materials": {
                         "otherMaterials": [
                             {
-                                "@id": "#material/extract-140201164881152",
+                                "@id": "#material/extract-139907678719520",
                                 "characteristics": [],
                                 "name": "DNA_sample_1",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140201164863952",
+                                "@id": "#material/extract-139907678673648",
                                 "characteristics": [],
                                 "name": "DNA_sample_2",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140201164867280",
+                                "@id": "#material/extract-139907678709792",
                                 "characteristics": [],
                                 "name": "DNA_sample_3",
                                 "type": "Extract Name"
@@ -216,14 +216,14 @@
                         ],
                         "samples": [
                             {
-                                "@id": "#sample/140202296083648",
+                                "@id": "#sample/139907679094672",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#5fd445f5-512a-4667-bc9b-eafeab796738"
+                                            "@id": "#5a4c1979-6ad6-4c8b-bd9b-4d8aca84e1ca"
                                         },
                                         "value": {
-                                            "@id": "#35e05e4a-11c3-4067-9d20-fc7efd759d36",
+                                            "@id": "#4857cb28-68e6-47f7-9b9b-4e24fc24edf0",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -235,14 +235,14 @@
                                 "name": "sample_1"
                             },
                             {
-                                "@id": "#sample/140201165103840",
+                                "@id": "#sample/139907679096064",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#4d1339ca-ff8c-4587-b55c-6498ea928bdf"
+                                            "@id": "#a8b95a8c-0691-4004-8e02-316fd6512068"
                                         },
                                         "value": {
-                                            "@id": "#d36c62c4-0bfb-432e-adf6-dacae7fabe06",
+                                            "@id": "#73489d7e-ead7-4b30-ae5a-a36e77dbd1e0",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -254,14 +254,14 @@
                                 "name": "sample_2"
                             },
                             {
-                                "@id": "#sample/140201165104608",
+                                "@id": "#sample/139907679096736",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#3dba7524-36d3-43a9-bf13-22a805fb378f"
+                                            "@id": "#24532463-6d53-441c-b033-c358125650b2"
                                         },
                                         "value": {
-                                            "@id": "#d06a03e3-b55c-4ce5-91cf-31b94b7f84ba",
+                                            "@id": "#f10b0ec4-a3a1-48cf-91a5-52d207f45355",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -275,830 +275,177 @@
                         ]
                     },
                     "measurementType": {
-                        "@id": "#06d38bba-c4f3-4db5-8e86-1f2a3ee3fc46",
-                        "annotationValue": "DNA Sequence",
+                        "@id": "#8719919c-b03c-4b0a-b69a-72e985cc0d2d",
+                        "annotationValue": "Whole Genome Sequencing",
                         "comments": [],
-                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C13299",
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C101294",
                         "termSource": "NCI Thesaurus OBO Edition"
                     },
                     "processSequence": [
                         {
-                            "@id": "#process/140201164881248",
+                            "@id": "#process/139907678719616",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230624"
+                                "@id": "#139907679046000"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140202296083648"
+                                    "@id": "#sample/139907679094672"
                                 }
                             ],
                             "name": "DNA_extraction_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140201164863904"
+                                "@id": "#process/139907678673600"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164881152"
+                                    "@id": "#material/extract-139907678719520"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164881632",
+                            "@id": "#process/139907678670912",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230912"
+                                "@id": "#139907679046288"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164881152"
+                                    "@id": "#material/extract-139907678719520"
                                 }
                             ],
                             "name": "WGS_DNA_sample_1",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafiler1-140201164881440"
+                                    "@id": "#data/rawdatafiler1-139907678719808"
                                 },
                                 {
-                                    "@id": "#data/rawdatafiler2-140201164881536"
+                                    "@id": "#data/rawdatafiler2-139907678719904"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164881248"
+                                "@id": "#process/139907678719616"
                             }
                         },
                         {
-                            "@id": "#process/140201164864048",
+                            "@id": "#process/139907678673744",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230624"
+                                "@id": "#139907679046000"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140201165103840"
+                                    "@id": "#sample/139907679096064"
                                 }
                             ],
                             "name": "DNA_extraction_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140201164867184"
+                                "@id": "#process/139907678709744"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164863952"
+                                    "@id": "#material/extract-139907678673648"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164864432",
+                            "@id": "#process/139907678674128",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230912"
+                                "@id": "#139907679046288"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164863952"
+                                    "@id": "#material/extract-139907678673648"
                                 }
                             ],
                             "name": "WGS_DNA_sample_2",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafiler1-140201164864240"
+                                    "@id": "#data/rawdatafiler1-139907678673936"
                                 },
                                 {
-                                    "@id": "#data/rawdatafiler2-140201164864336"
+                                    "@id": "#data/rawdatafiler2-139907678674032"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164864048"
+                                "@id": "#process/139907678673744"
                             }
                         },
                         {
-                            "@id": "#process/140201164867472",
+                            "@id": "#process/139907678709888",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230624"
+                                "@id": "#139907679046000"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140201165104608"
+                                    "@id": "#sample/139907679096736"
                                 }
                             ],
                             "name": "DNA_extraction_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140201164899136"
+                                "@id": "#process/139907678782560"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164867280"
+                                    "@id": "#material/extract-139907678709792"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164867856",
+                            "@id": "#process/139907678710272",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230912"
+                                "@id": "#139907679046288"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164867280"
+                                    "@id": "#material/extract-139907678709792"
                                 }
                             ],
                             "name": "WGS_DNA_sample_3",
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafiler1-140201164867664"
+                                    "@id": "#data/rawdatafiler1-139907678710032"
                                 },
                                 {
-                                    "@id": "#data/rawdatafiler2-140201164867760"
+                                    "@id": "#data/rawdatafiler2-139907678710128"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164867472"
+                                "@id": "#process/139907678709888"
                             }
                         }
                     ],
                     "technologyPlatform": {
-                        "@id": "#f32076cc-c3d9-432e-b9dc-2cc6717809e4",
+                        "@id": "#c2818caa-197f-4916-baf2-8a01d2042166",
                         "annotationValue": "Illumina platform",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/GENEPIO_0001923",
                         "termSource": "GENEPIO - Genomic Epidemiology Ontology"
                     },
                     "technologyType": {
-                        "@id": "#f0348f53-b900-45d8-81de-45db96bb9997",
-                        "annotationValue": "Whole Genome Sequencing",
-                        "comments": [],
-                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C101294",
-                        "termSource": "NCI Thesaurus OBO Edition"
-                    },
-                    "unitCategories": []
-                },
-                {
-                    "characteristicCategories": [],
-                    "comments": [],
-                    "dataFiles": [
-                        {
-                            "@id": "#data/rawdatafiler1-140201164863712",
-                            "comments": [],
-                            "name": "EMseq_rawdata_DNA_sample_1_R1.fastq",
-                            "type": "Raw Data File R1"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler2-140201164863808",
-                            "comments": [],
-                            "name": "EMseq_rawdata_DNA_sample_1_R2.fastq",
-                            "type": "Raw Data File R2"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler1-140201164866992",
-                            "comments": [],
-                            "name": "EMseq_rawdata_DNA_sample_2_R1.fastq",
-                            "type": "Raw Data File R1"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler2-140201164867088",
-                            "comments": [],
-                            "name": "EMseq_rawdata_DNA_sample_2_R2.fastq",
-                            "type": "Raw Data File R2"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler1-140201164898944",
-                            "comments": [],
-                            "name": "EMseq_rawdata_DNA_sample_3_R1.fastq",
-                            "type": "Raw Data File R1"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler2-140201164899040",
-                            "comments": [],
-                            "name": "EMseq_rawdata_DNA_sample_3_R2.fastq",
-                            "type": "Raw Data File R2"
-                        }
-                    ],
-                    "filename": "a_assay_methylseq_uu.txt",
-                    "materials": {
-                        "otherMaterials": [
-                            {
-                                "@id": "#material/extract-140201164881152",
-                                "characteristics": [],
-                                "name": "DNA_sample_1",
-                                "type": "Extract Name"
-                            },
-                            {
-                                "@id": "#material/extract-140201164863952",
-                                "characteristics": [],
-                                "name": "DNA_sample_2",
-                                "type": "Extract Name"
-                            },
-                            {
-                                "@id": "#material/extract-140201164867280",
-                                "characteristics": [],
-                                "name": "DNA_sample_3",
-                                "type": "Extract Name"
-                            }
-                        ],
-                        "samples": [
-                            {
-                                "@id": "#sample/140202296083648",
-                                "characteristics": [
-                                    {
-                                        "category": {
-                                            "@id": "#5fd445f5-512a-4667-bc9b-eafeab796738"
-                                        },
-                                        "value": {
-                                            "@id": "#35e05e4a-11c3-4067-9d20-fc7efd759d36",
-                                            "annotationValue": "blood",
-                                            "comments": [],
-                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
-                                            "termSource": "Uber-anatomy ontology"
-                                        }
-                                    }
-                                ],
-                                "factorValues": [],
-                                "name": "sample_1"
-                            },
-                            {
-                                "@id": "#sample/140201165103840",
-                                "characteristics": [
-                                    {
-                                        "category": {
-                                            "@id": "#4d1339ca-ff8c-4587-b55c-6498ea928bdf"
-                                        },
-                                        "value": {
-                                            "@id": "#d36c62c4-0bfb-432e-adf6-dacae7fabe06",
-                                            "annotationValue": "blood",
-                                            "comments": [],
-                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
-                                            "termSource": "Uber-anatomy ontology"
-                                        }
-                                    }
-                                ],
-                                "factorValues": [],
-                                "name": "sample_2"
-                            },
-                            {
-                                "@id": "#sample/140201165104608",
-                                "characteristics": [
-                                    {
-                                        "category": {
-                                            "@id": "#3dba7524-36d3-43a9-bf13-22a805fb378f"
-                                        },
-                                        "value": {
-                                            "@id": "#d06a03e3-b55c-4ce5-91cf-31b94b7f84ba",
-                                            "annotationValue": "blood",
-                                            "comments": [],
-                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
-                                            "termSource": "Uber-anatomy ontology"
-                                        }
-                                    }
-                                ],
-                                "factorValues": [],
-                                "name": "sample_3"
-                            }
-                        ]
-                    },
-                    "measurementType": {
-                        "@id": "#98fb5fec-f0d2-4fad-83b9-2b2291a8b9cf",
-                        "annotationValue": "methylation profiling by high throughput sequencing",
-                        "comments": [],
-                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002761",
-                        "termSource": "EFO - Experimental Factor Ontology"
-                    },
-                    "processSequence": [
-                        {
-                            "@id": "#process/140201164881248",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165230624"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#sample/140202296083648"
-                                }
-                            ],
-                            "name": "DNA_extraction_sample_1",
-                            "nextProcess": {
-                                "@id": "#process/140201164863904"
-                            },
-                            "outputs": [
-                                {
-                                    "@id": "#material/extract-140201164881152"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": ""
-                        },
-                        {
-                            "@id": "#process/140201164863904",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140202295983168"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#material/extract-140201164881152"
-                                }
-                            ],
-                            "name": "WGS_DNA_sample_1",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafiler1-140201164863712"
-                                },
-                                {
-                                    "@id": "#data/rawdatafiler2-140201164863808"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164881248"
-                            }
-                        },
-                        {
-                            "@id": "#process/140201164864048",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165230624"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#sample/140201165103840"
-                                }
-                            ],
-                            "name": "DNA_extraction_sample_2",
-                            "nextProcess": {
-                                "@id": "#process/140201164867184"
-                            },
-                            "outputs": [
-                                {
-                                    "@id": "#material/extract-140201164863952"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": ""
-                        },
-                        {
-                            "@id": "#process/140201164867184",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140202295983168"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#material/extract-140201164863952"
-                                }
-                            ],
-                            "name": "WGS_DNA_sample_2",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafiler1-140201164866992"
-                                },
-                                {
-                                    "@id": "#data/rawdatafiler2-140201164867088"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164864048"
-                            }
-                        },
-                        {
-                            "@id": "#process/140201164867472",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165230624"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#sample/140201165104608"
-                                }
-                            ],
-                            "name": "DNA_extraction_sample_3",
-                            "nextProcess": {
-                                "@id": "#process/140201164899136"
-                            },
-                            "outputs": [
-                                {
-                                    "@id": "#material/extract-140201164867280"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": ""
-                        },
-                        {
-                            "@id": "#process/140201164899136",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140202295983168"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#material/extract-140201164867280"
-                                }
-                            ],
-                            "name": "WGS_DNA_sample_3",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafiler1-140201164898944"
-                                },
-                                {
-                                    "@id": "#data/rawdatafiler2-140201164899040"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164867472"
-                            }
-                        }
-                    ],
-                    "technologyPlatform": "",
-                    "technologyType": {
-                        "@id": "#2e3f2ab8-c6d2-48ec-8d75-9b02a2f1c733",
-                        "annotationValue": "",
-                        "comments": [],
-                        "termAccession": "",
-                        "termSource": ""
-                    },
-                    "unitCategories": []
-                },
-                {
-                    "characteristicCategories": [],
-                    "comments": [],
-                    "dataFiles": [
-                        {
-                            "@id": "#data/rawdatafiler1-140201164881680",
-                            "comments": [],
-                            "name": "RNAseq_rawdata_RNA_sample_1_R1.fastq.gz",
-                            "type": "Raw Data File R1"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler2-140201164881776",
-                            "comments": [],
-                            "name": "RNAseq_rawdata_RNA_sample_1_R2.fastq.gz",
-                            "type": "Raw Data File R2"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler1-140201164864480",
-                            "comments": [],
-                            "name": "RNAseq_rawdata_RNA_sample_2_R1.fastq.gz",
-                            "type": "Raw Data File R1"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler2-140201164864576",
-                            "comments": [],
-                            "name": "RNAseq_rawdata_RNA_sample_2_R2.fastq.gz",
-                            "type": "Raw Data File R2"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler1-140201164867904",
-                            "comments": [],
-                            "name": "RNAseq_rawdata_RNA_sample_3_R1.fastq.gz",
-                            "type": "Raw Data File R1"
-                        },
-                        {
-                            "@id": "#data/rawdatafiler2-140201164867232",
-                            "comments": [],
-                            "name": "RNAseq_rawdata_RNA_sample_3_R2.fastq.gz",
-                            "type": "Raw Data File R2"
-                        }
-                    ],
-                    "filename": "a_assay_rnaseq_fimm.txt",
-                    "materials": {
-                        "otherMaterials": [
-                            {
-                                "@id": "#material/extract-140201164881296",
-                                "characteristics": [],
-                                "name": "RNA_sample_1",
-                                "type": "Extract Name"
-                            },
-                            {
-                                "@id": "#material/extract-140201164864096",
-                                "characteristics": [],
-                                "name": "RNA_sample_2",
-                                "type": "Extract Name"
-                            },
-                            {
-                                "@id": "#material/extract-140201164867520",
-                                "characteristics": [],
-                                "name": "RNA_sample_3",
-                                "type": "Extract Name"
-                            }
-                        ],
-                        "samples": [
-                            {
-                                "@id": "#sample/140202296083648",
-                                "characteristics": [
-                                    {
-                                        "category": {
-                                            "@id": "#5fd445f5-512a-4667-bc9b-eafeab796738"
-                                        },
-                                        "value": {
-                                            "@id": "#35e05e4a-11c3-4067-9d20-fc7efd759d36",
-                                            "annotationValue": "blood",
-                                            "comments": [],
-                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
-                                            "termSource": "Uber-anatomy ontology"
-                                        }
-                                    }
-                                ],
-                                "factorValues": [],
-                                "name": "sample_1"
-                            },
-                            {
-                                "@id": "#sample/140201165103840",
-                                "characteristics": [
-                                    {
-                                        "category": {
-                                            "@id": "#4d1339ca-ff8c-4587-b55c-6498ea928bdf"
-                                        },
-                                        "value": {
-                                            "@id": "#d36c62c4-0bfb-432e-adf6-dacae7fabe06",
-                                            "annotationValue": "blood",
-                                            "comments": [],
-                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
-                                            "termSource": "Uber-anatomy ontology"
-                                        }
-                                    }
-                                ],
-                                "factorValues": [],
-                                "name": "sample_2"
-                            },
-                            {
-                                "@id": "#sample/140201165104608",
-                                "characteristics": [
-                                    {
-                                        "category": {
-                                            "@id": "#3dba7524-36d3-43a9-bf13-22a805fb378f"
-                                        },
-                                        "value": {
-                                            "@id": "#d06a03e3-b55c-4ce5-91cf-31b94b7f84ba",
-                                            "annotationValue": "blood",
-                                            "comments": [],
-                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
-                                            "termSource": "Uber-anatomy ontology"
-                                        }
-                                    }
-                                ],
-                                "factorValues": [],
-                                "name": "sample_3"
-                            }
-                        ]
-                    },
-                    "measurementType": {
-                        "@id": "#ad2a011b-6363-4732-b2c5-bc19f29343b1",
-                        "annotationValue": "transcription profiling",
-                        "comments": [],
-                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001032",
-                        "termSource": "EFO - Experimental Factor Ontology"
-                    },
-                    "processSequence": [
-                        {
-                            "@id": "#process/140201164881392",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165230768"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#sample/140202296083648"
-                                }
-                            ],
-                            "name": "RNA_extraction_sample_1",
-                            "nextProcess": {
-                                "@id": "#process/140201164881872"
-                            },
-                            "outputs": [
-                                {
-                                    "@id": "#material/extract-140201164881296"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": ""
-                        },
-                        {
-                            "@id": "#process/140201164881872",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165231104"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#material/extract-140201164881296"
-                                }
-                            ],
-                            "name": "mRNAlibprep_RNA_sample_1",
-                            "nextProcess": {
-                                "@id": "#process/140201164861504"
-                            },
-                            "outputs": [],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164881392"
-                            }
-                        },
-                        {
-                            "@id": "#process/140201164861504",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165231248"
-                            },
-                            "inputs": [],
-                            "name": "mRNAseq_RNA_sample_1",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafiler1-140201164881680"
-                                },
-                                {
-                                    "@id": "#data/rawdatafiler2-140201164881776"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164881872"
-                            }
-                        },
-                        {
-                            "@id": "#process/140201164864192",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165230768"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#sample/140201165103840"
-                                }
-                            ],
-                            "name": "RNA_extraction_sample_2",
-                            "nextProcess": {
-                                "@id": "#process/140201164864672"
-                            },
-                            "outputs": [
-                                {
-                                    "@id": "#material/extract-140201164864096"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": ""
-                        },
-                        {
-                            "@id": "#process/140201164864672",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165231104"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#material/extract-140201164864096"
-                                }
-                            ],
-                            "name": "mRNAlibprep_RNA_sample_2",
-                            "nextProcess": {
-                                "@id": "#process/140201164864720"
-                            },
-                            "outputs": [],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164864192"
-                            }
-                        },
-                        {
-                            "@id": "#process/140201164864720",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165231248"
-                            },
-                            "inputs": [],
-                            "name": "mRNAseq_RNA_sample_2",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafiler1-140201164864480"
-                                },
-                                {
-                                    "@id": "#data/rawdatafiler2-140201164864576"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164864672"
-                            }
-                        },
-                        {
-                            "@id": "#process/140201164867616",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165230768"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#sample/140201165104608"
-                                }
-                            ],
-                            "name": "RNA_extraction_sample_3",
-                            "nextProcess": {
-                                "@id": "#process/140201164868048"
-                            },
-                            "outputs": [
-                                {
-                                    "@id": "#material/extract-140201164867520"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": ""
-                        },
-                        {
-                            "@id": "#process/140201164868048",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165231104"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#material/extract-140201164867520"
-                                }
-                            ],
-                            "name": "mRNAlibprep_RNA_sample_3",
-                            "nextProcess": {
-                                "@id": "#process/140201164868096"
-                            },
-                            "outputs": [],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164867616"
-                            }
-                        },
-                        {
-                            "@id": "#process/140201164868096",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#140201165231248"
-                            },
-                            "inputs": [],
-                            "name": "mRNAseq_RNA_sample_3",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafiler1-140201164867904"
-                                },
-                                {
-                                    "@id": "#data/rawdatafiler2-140201164867232"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/140201164868048"
-                            }
-                        }
-                    ],
-                    "technologyPlatform": {
-                        "@id": "#b13ead30-eec1-49fd-b4e3-db9087262462",
-                        "annotationValue": "Illumina NovaSeq 6000",
-                        "comments": [],
-                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0002630",
-                        "termSource": "OBI - Ontology for Biomedical Investigations"
-                    },
-                    "technologyType": {
-                        "@id": "#c1be20c6-a12c-440c-a1a4-e6fde540ac1b",
-                        "annotationValue": "nucleic acid sequencing",
+                        "@id": "#9b6cb754-0b5d-4c8e-8cf0-f54254b0d5e9",
+                        "annotationValue": "Nucleic Acid Sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C18881",
                         "termSource": "NCI Thesaurus OBO Edition"
@@ -1110,92 +457,74 @@
                     "comments": [],
                     "dataFiles": [
                         {
-                            "@id": "#data/rawdatafile-140201164861696",
+                            "@id": "#data/rawdatafiler1-139907678673408",
                             "comments": [],
-                            "name": "miRNAqPCR_rawdata_sample_1_Replicate_1",
-                            "type": "Raw Data File"
+                            "name": "EMseq_rawdata_DNA_sample_1_R1.fastq",
+                            "type": "Raw Data File R1"
                         },
                         {
-                            "@id": "#data/deriveddatafile-140201164861840",
+                            "@id": "#data/rawdatafiler2-139907678673504",
                             "comments": [],
-                            "name": "miRNAqPCR_normalizationdata_sample_1_Replicate_1",
-                            "type": "Derived Data File"
+                            "name": "EMseq_rawdata_DNA_sample_1_R2.fastq",
+                            "type": "Raw Data File R2"
                         },
                         {
-                            "@id": "#data/rawdatafile-140201164864912",
+                            "@id": "#data/rawdatafiler1-139907678709552",
                             "comments": [],
-                            "name": "miRNAqPCR_rawdata_sample_2_Replicate_1",
-                            "type": "Raw Data File"
+                            "name": "EMseq_rawdata_DNA_sample_2_R1.fastq",
+                            "type": "Raw Data File R1"
                         },
                         {
-                            "@id": "#data/deriveddatafile-140201164865056",
+                            "@id": "#data/rawdatafiler2-139907678709648",
                             "comments": [],
-                            "name": "miRNAqPCR_normalizationdata_sample_2_Replicate_1",
-                            "type": "Derived Data File"
+                            "name": "EMseq_rawdata_DNA_sample_2_R2.fastq",
+                            "type": "Raw Data File R2"
                         },
                         {
-                            "@id": "#data/rawdatafile-140201164868240",
+                            "@id": "#data/rawdatafiler1-139907678782368",
                             "comments": [],
-                            "name": "miRNAqPCR_rawdata_sample_3_Replicate_1",
-                            "type": "Raw Data File"
+                            "name": "EMseq_rawdata_DNA_sample_3_R1.fastq",
+                            "type": "Raw Data File R1"
                         },
                         {
-                            "@id": "#data/deriveddatafile-140201164868384",
+                            "@id": "#data/rawdatafiler2-139907678782464",
                             "comments": [],
-                            "name": "miRNAqPCR_normalizationdata_sample_3_Replicate_1",
-                            "type": "Derived Data File"
+                            "name": "EMseq_rawdata_DNA_sample_3_R2.fastq",
+                            "type": "Raw Data File R2"
                         }
                     ],
-                    "filename": "a_assay_mirnaseq_sermas.txt",
+                    "filename": "a_assay_methylseq_uu.txt",
                     "materials": {
                         "otherMaterials": [
                             {
-                                "@id": "#material/extract-140201164881296",
+                                "@id": "#material/extract-139907678719520",
                                 "characteristics": [],
-                                "name": "RNA_sample_1",
+                                "name": "DNA_sample_1",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140201164861552",
+                                "@id": "#material/extract-139907678673648",
                                 "characteristics": [],
-                                "name": "cDNA_sample_1",
+                                "name": "DNA_sample_2",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140201164864096",
+                                "@id": "#material/extract-139907678709792",
                                 "characteristics": [],
-                                "name": "RNA_sample_2",
-                                "type": "Extract Name"
-                            },
-                            {
-                                "@id": "#material/extract-140201164864768",
-                                "characteristics": [],
-                                "name": "cDNA_sample_2",
-                                "type": "Extract Name"
-                            },
-                            {
-                                "@id": "#material/extract-140201164867520",
-                                "characteristics": [],
-                                "name": "RNA_sample_3",
-                                "type": "Extract Name"
-                            },
-                            {
-                                "@id": "#material/extract-140201164868144",
-                                "characteristics": [],
-                                "name": "cDNA_sample_3",
+                                "name": "DNA_sample_3",
                                 "type": "Extract Name"
                             }
                         ],
                         "samples": [
                             {
-                                "@id": "#sample/140202296083648",
+                                "@id": "#sample/139907679094672",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#5fd445f5-512a-4667-bc9b-eafeab796738"
+                                            "@id": "#5a4c1979-6ad6-4c8b-bd9b-4d8aca84e1ca"
                                         },
                                         "value": {
-                                            "@id": "#35e05e4a-11c3-4067-9d20-fc7efd759d36",
+                                            "@id": "#4857cb28-68e6-47f7-9b9b-4e24fc24edf0",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1207,14 +536,14 @@
                                 "name": "sample_1"
                             },
                             {
-                                "@id": "#sample/140201165103840",
+                                "@id": "#sample/139907679096064",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#4d1339ca-ff8c-4587-b55c-6498ea928bdf"
+                                            "@id": "#a8b95a8c-0691-4004-8e02-316fd6512068"
                                         },
                                         "value": {
-                                            "@id": "#d36c62c4-0bfb-432e-adf6-dacae7fabe06",
+                                            "@id": "#73489d7e-ead7-4b30-ae5a-a36e77dbd1e0",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1226,14 +555,14 @@
                                 "name": "sample_2"
                             },
                             {
-                                "@id": "#sample/140201165104608",
+                                "@id": "#sample/139907679096736",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#3dba7524-36d3-43a9-bf13-22a805fb378f"
+                                            "@id": "#24532463-6d53-441c-b033-c358125650b2"
                                         },
                                         "value": {
-                                            "@id": "#d06a03e3-b55c-4ce5-91cf-31b94b7f84ba",
+                                            "@id": "#f10b0ec4-a3a1-48cf-91a5-52d207f45355",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1247,7 +576,711 @@
                         ]
                     },
                     "measurementType": {
-                        "@id": "#fa96beb6-fe3e-46e4-a06f-f61874c57879",
+                        "@id": "#382b6f62-c889-4d6c-b4f9-b0be4212defd",
+                        "annotationValue": "DNA methylation profiling by high throughput sequencing assay",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0001266",
+                        "termSource": "OBI - Ontology for Biomedical Investigations"
+                    },
+                    "processSequence": [
+                        {
+                            "@id": "#process/139907678719616",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046000"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/139907679094672"
+                                }
+                            ],
+                            "name": "DNA_extraction_sample_1",
+                            "nextProcess": {
+                                "@id": "#process/139907678673600"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-139907678719520"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/139907678673600",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679093088"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-139907678719520"
+                                }
+                            ],
+                            "name": "WGS_DNA_sample_1",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafiler1-139907678673408"
+                                },
+                                {
+                                    "@id": "#data/rawdatafiler2-139907678673504"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678719616"
+                            }
+                        },
+                        {
+                            "@id": "#process/139907678673744",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046000"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/139907679096064"
+                                }
+                            ],
+                            "name": "DNA_extraction_sample_2",
+                            "nextProcess": {
+                                "@id": "#process/139907678709744"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-139907678673648"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/139907678709744",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679093088"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-139907678673648"
+                                }
+                            ],
+                            "name": "WGS_DNA_sample_2",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafiler1-139907678709552"
+                                },
+                                {
+                                    "@id": "#data/rawdatafiler2-139907678709648"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678673744"
+                            }
+                        },
+                        {
+                            "@id": "#process/139907678709888",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046000"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/139907679096736"
+                                }
+                            ],
+                            "name": "DNA_extraction_sample_3",
+                            "nextProcess": {
+                                "@id": "#process/139907678782560"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-139907678709792"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/139907678782560",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679093088"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-139907678709792"
+                                }
+                            ],
+                            "name": "WGS_DNA_sample_3",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafiler1-139907678782368"
+                                },
+                                {
+                                    "@id": "#data/rawdatafiler2-139907678782464"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678709888"
+                            }
+                        }
+                    ],
+                    "technologyPlatform": "NEBNext Enzymatic Methyl-seq (EM-seq)",
+                    "technologyType": {
+                        "@id": "#73dbe744-e7ce-48a1-b58f-3f0a7f8de901",
+                        "annotationValue": "Nucleic Acid Sequencing",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C18881",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "unitCategories": []
+                },
+                {
+                    "characteristicCategories": [],
+                    "comments": [],
+                    "dataFiles": [
+                        {
+                            "@id": "#data/rawdatafiler1-139907678670960",
+                            "comments": [],
+                            "name": "RNAseq_rawdata_RNA_sample_1_R1.fastq.gz",
+                            "type": "Raw Data File R1"
+                        },
+                        {
+                            "@id": "#data/rawdatafiler2-139907678671056",
+                            "comments": [],
+                            "name": "RNAseq_rawdata_RNA_sample_1_R2.fastq.gz",
+                            "type": "Raw Data File R2"
+                        },
+                        {
+                            "@id": "#data/rawdatafiler1-139907678674176",
+                            "comments": [],
+                            "name": "RNAseq_rawdata_RNA_sample_2_R1.fastq.gz",
+                            "type": "Raw Data File R1"
+                        },
+                        {
+                            "@id": "#data/rawdatafiler2-139907678674272",
+                            "comments": [],
+                            "name": "RNAseq_rawdata_RNA_sample_2_R2.fastq.gz",
+                            "type": "Raw Data File R2"
+                        },
+                        {
+                            "@id": "#data/rawdatafiler1-139907678710320",
+                            "comments": [],
+                            "name": "RNAseq_rawdata_RNA_sample_3_R1.fastq.gz",
+                            "type": "Raw Data File R1"
+                        },
+                        {
+                            "@id": "#data/rawdatafiler2-139907678710416",
+                            "comments": [],
+                            "name": "RNAseq_rawdata_RNA_sample_3_R2.fastq.gz",
+                            "type": "Raw Data File R2"
+                        }
+                    ],
+                    "filename": "a_assay_rnaseq_fimm.txt",
+                    "materials": {
+                        "otherMaterials": [
+                            {
+                                "@id": "#material/extract-139907678719664",
+                                "characteristics": [],
+                                "name": "RNA_sample_1",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-139907678673792",
+                                "characteristics": [],
+                                "name": "RNA_sample_2",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-139907678709936",
+                                "characteristics": [],
+                                "name": "RNA_sample_3",
+                                "type": "Extract Name"
+                            }
+                        ],
+                        "samples": [
+                            {
+                                "@id": "#sample/139907679094672",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#5a4c1979-6ad6-4c8b-bd9b-4d8aca84e1ca"
+                                        },
+                                        "value": {
+                                            "@id": "#4857cb28-68e6-47f7-9b9b-4e24fc24edf0",
+                                            "annotationValue": "blood",
+                                            "comments": [],
+                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                            "termSource": "Uber-anatomy ontology"
+                                        }
+                                    }
+                                ],
+                                "factorValues": [],
+                                "name": "sample_1"
+                            },
+                            {
+                                "@id": "#sample/139907679096064",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#a8b95a8c-0691-4004-8e02-316fd6512068"
+                                        },
+                                        "value": {
+                                            "@id": "#73489d7e-ead7-4b30-ae5a-a36e77dbd1e0",
+                                            "annotationValue": "blood",
+                                            "comments": [],
+                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                            "termSource": "Uber-anatomy ontology"
+                                        }
+                                    }
+                                ],
+                                "factorValues": [],
+                                "name": "sample_2"
+                            },
+                            {
+                                "@id": "#sample/139907679096736",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#24532463-6d53-441c-b033-c358125650b2"
+                                        },
+                                        "value": {
+                                            "@id": "#f10b0ec4-a3a1-48cf-91a5-52d207f45355",
+                                            "annotationValue": "blood",
+                                            "comments": [],
+                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                            "termSource": "Uber-anatomy ontology"
+                                        }
+                                    }
+                                ],
+                                "factorValues": [],
+                                "name": "sample_3"
+                            }
+                        ]
+                    },
+                    "measurementType": {
+                        "@id": "#384f9965-25b6-4368-8404-63358d6b13b8",
+                        "annotationValue": "transcription profiling",
+                        "comments": [],
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001032",
+                        "termSource": "EFO - Experimental Factor Ontology"
+                    },
+                    "processSequence": [
+                        {
+                            "@id": "#process/139907678719760",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046144"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/139907679094672"
+                                }
+                            ],
+                            "name": "RNA_extraction_sample_1",
+                            "nextProcess": {
+                                "@id": "#process/139907678671152"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-139907678719664"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/139907678671152",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046432"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-139907678719664"
+                                }
+                            ],
+                            "name": "mRNAlibprep_RNA_sample_1",
+                            "nextProcess": {
+                                "@id": "#process/139907678671200"
+                            },
+                            "outputs": [],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678719760"
+                            }
+                        },
+                        {
+                            "@id": "#process/139907678671200",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046576"
+                            },
+                            "inputs": [],
+                            "name": "mRNAseq_RNA_sample_1",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafiler1-139907678670960"
+                                },
+                                {
+                                    "@id": "#data/rawdatafiler2-139907678671056"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678671152"
+                            }
+                        },
+                        {
+                            "@id": "#process/139907678673888",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046144"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/139907679096064"
+                                }
+                            ],
+                            "name": "RNA_extraction_sample_2",
+                            "nextProcess": {
+                                "@id": "#process/139907678674368"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-139907678673792"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/139907678674368",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046432"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-139907678673792"
+                                }
+                            ],
+                            "name": "mRNAlibprep_RNA_sample_2",
+                            "nextProcess": {
+                                "@id": "#process/139907678674416"
+                            },
+                            "outputs": [],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678673888"
+                            }
+                        },
+                        {
+                            "@id": "#process/139907678674416",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046576"
+                            },
+                            "inputs": [],
+                            "name": "mRNAseq_RNA_sample_2",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafiler1-139907678674176"
+                                },
+                                {
+                                    "@id": "#data/rawdatafiler2-139907678674272"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678674368"
+                            }
+                        },
+                        {
+                            "@id": "#process/139907678709264",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046144"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/139907679096736"
+                                }
+                            ],
+                            "name": "RNA_extraction_sample_3",
+                            "nextProcess": {
+                                "@id": "#process/139907678710512"
+                            },
+                            "outputs": [
+                                {
+                                    "@id": "#material/extract-139907678709936"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": ""
+                        },
+                        {
+                            "@id": "#process/139907678710512",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046432"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#material/extract-139907678709936"
+                                }
+                            ],
+                            "name": "mRNAlibprep_RNA_sample_3",
+                            "nextProcess": {
+                                "@id": "#process/139907678710560"
+                            },
+                            "outputs": [],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678709264"
+                            }
+                        },
+                        {
+                            "@id": "#process/139907678710560",
+                            "comments": [],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#139907679046576"
+                            },
+                            "inputs": [],
+                            "name": "mRNAseq_RNA_sample_3",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafiler1-139907678710320"
+                                },
+                                {
+                                    "@id": "#data/rawdatafiler2-139907678710416"
+                                }
+                            ],
+                            "parameterValues": [],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/139907678710512"
+                            }
+                        }
+                    ],
+                    "technologyPlatform": {
+                        "@id": "#7fd209f5-2ffd-4743-8471-2f2a07f6dd59",
+                        "annotationValue": "Illumina NovaSeq 6000",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0002630",
+                        "termSource": "OBI - Ontology for Biomedical Investigations"
+                    },
+                    "technologyType": {
+                        "@id": "#8343e6da-620e-4684-bfa3-2bd4811a8225",
+                        "annotationValue": "Nucleic Acid Sequencing",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C18881",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "unitCategories": []
+                },
+                {
+                    "characteristicCategories": [],
+                    "comments": [],
+                    "dataFiles": [],
+                    "filename": "a_assay_mirnaseq_fimm.txt",
+                    "materials": {
+                        "otherMaterials": [],
+                        "samples": []
+                    },
+                    "measurementType": {
+                        "@id": "#a67f61de-655e-4884-8b40-728b9ac2a378",
+                        "annotationValue": "transcription profiling",
+                        "comments": [],
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001032",
+                        "termSource": "EFO - Experimental Factor Ontology"
+                    },
+                    "processSequence": [],
+                    "technologyPlatform": {
+                        "@id": "#d2ccb1a4-c514-4126-a72c-7ad7a07eff29",
+                        "annotationValue": "Illumina NovaSeq 6000",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0002630",
+                        "termSource": "OBI - Ontology for Biomedical Investigations"
+                    },
+                    "technologyType": {
+                        "@id": "#f3f90209-89c3-4c6c-8121-6998c5f5da97",
+                        "annotationValue": "Nucleic Acid Sequencing",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/NCIT_C18881",
+                        "termSource": "NCI Thesaurus OBO Edition"
+                    },
+                    "unitCategories": []
+                },
+                {
+                    "characteristicCategories": [],
+                    "comments": [],
+                    "dataFiles": [
+                        {
+                            "@id": "#data/rawdatafile-139907678671392",
+                            "comments": [],
+                            "name": "miRNAqPCR_rawdata_sample_1_Replicate_1",
+                            "type": "Raw Data File"
+                        },
+                        {
+                            "@id": "#data/deriveddatafile-139907678671536",
+                            "comments": [],
+                            "name": "miRNAqPCR_normalizationdata_sample_1_Replicate_1",
+                            "type": "Derived Data File"
+                        },
+                        {
+                            "@id": "#data/rawdatafile-139907678674608",
+                            "comments": [],
+                            "name": "miRNAqPCR_rawdata_sample_2_Replicate_1",
+                            "type": "Raw Data File"
+                        },
+                        {
+                            "@id": "#data/deriveddatafile-139907678674752",
+                            "comments": [],
+                            "name": "miRNAqPCR_normalizationdata_sample_2_Replicate_1",
+                            "type": "Derived Data File"
+                        },
+                        {
+                            "@id": "#data/rawdatafile-139907678710848",
+                            "comments": [],
+                            "name": "miRNAqPCR_rawdata_sample_3_Replicate_1",
+                            "type": "Raw Data File"
+                        },
+                        {
+                            "@id": "#data/deriveddatafile-139907678710944",
+                            "comments": [],
+                            "name": "miRNAqPCR_normalizationdata_sample_3_Replicate_1",
+                            "type": "Derived Data File"
+                        }
+                    ],
+                    "filename": "a_assay_mirnaseq_sermas.txt",
+                    "materials": {
+                        "otherMaterials": [
+                            {
+                                "@id": "#material/extract-139907678719664",
+                                "characteristics": [],
+                                "name": "RNA_sample_1",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-139907678671248",
+                                "characteristics": [],
+                                "name": "cDNA_sample_1",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-139907678673792",
+                                "characteristics": [],
+                                "name": "RNA_sample_2",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-139907678674464",
+                                "characteristics": [],
+                                "name": "cDNA_sample_2",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-139907678709936",
+                                "characteristics": [],
+                                "name": "RNA_sample_3",
+                                "type": "Extract Name"
+                            },
+                            {
+                                "@id": "#material/extract-139907678710608",
+                                "characteristics": [],
+                                "name": "cDNA_sample_3",
+                                "type": "Extract Name"
+                            }
+                        ],
+                        "samples": [
+                            {
+                                "@id": "#sample/139907679094672",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#5a4c1979-6ad6-4c8b-bd9b-4d8aca84e1ca"
+                                        },
+                                        "value": {
+                                            "@id": "#4857cb28-68e6-47f7-9b9b-4e24fc24edf0",
+                                            "annotationValue": "blood",
+                                            "comments": [],
+                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                            "termSource": "Uber-anatomy ontology"
+                                        }
+                                    }
+                                ],
+                                "factorValues": [],
+                                "name": "sample_1"
+                            },
+                            {
+                                "@id": "#sample/139907679096064",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#a8b95a8c-0691-4004-8e02-316fd6512068"
+                                        },
+                                        "value": {
+                                            "@id": "#73489d7e-ead7-4b30-ae5a-a36e77dbd1e0",
+                                            "annotationValue": "blood",
+                                            "comments": [],
+                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                            "termSource": "Uber-anatomy ontology"
+                                        }
+                                    }
+                                ],
+                                "factorValues": [],
+                                "name": "sample_2"
+                            },
+                            {
+                                "@id": "#sample/139907679096736",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#24532463-6d53-441c-b033-c358125650b2"
+                                        },
+                                        "value": {
+                                            "@id": "#f10b0ec4-a3a1-48cf-91a5-52d207f45355",
+                                            "annotationValue": "blood",
+                                            "comments": [],
+                                            "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                                            "termSource": "Uber-anatomy ontology"
+                                        }
+                                    }
+                                ],
+                                "factorValues": [],
+                                "name": "sample_3"
+                            }
+                        ]
+                    },
+                    "measurementType": {
+                        "@id": "#711ebfff-571c-46f6-bc3d-7602b6937b73",
                         "annotationValue": "\u00a0transcription profiling by RT-PCR assay",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0001361",
@@ -1255,312 +1288,312 @@
                     },
                     "processSequence": [
                         {
-                            "@id": "#process/140201164881392",
+                            "@id": "#process/139907678719760",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230768"
+                                "@id": "#139907679046144"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140202296083648"
+                                    "@id": "#sample/139907679094672"
                                 }
                             ],
                             "name": "RNA_extraction_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140201164881872"
+                                "@id": "#process/139907678671152"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164881296"
+                                    "@id": "#material/extract-139907678719664"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164861648",
+                            "@id": "#process/139907678671344",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231536"
+                                "@id": "#139907679046864"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164881296"
+                                    "@id": "#material/extract-139907678719664"
                                 }
                             ],
                             "name": "ReverseTranscription_RNA_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140201164861792"
+                                "@id": "#process/139907678671488"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164861552"
+                                    "@id": "#material/extract-139907678671248"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164861792",
+                            "@id": "#process/139907678671488",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231680"
+                                "@id": "#139907679047008"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164861552"
+                                    "@id": "#material/extract-139907678671248"
                                 }
                             ],
                             "name": "miRNAarray_RNA_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140201164861936"
+                                "@id": "#process/139907678671632"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140201164861696"
+                                    "@id": "#data/rawdatafile-139907678671392"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164861648"
+                                "@id": "#process/139907678671344"
                             }
                         },
                         {
-                            "@id": "#process/140201164861936",
+                            "@id": "#process/139907678671632",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231680"
+                                "@id": "#139907679047008"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140201164861696"
+                                    "@id": "#data/rawdatafile-139907678671392"
                                 }
                             ],
                             "name": "datanormalization_RNA_sample_1",
                             "outputs": [
                                 {
-                                    "@id": "#data/deriveddatafile-140201164861840"
+                                    "@id": "#data/deriveddatafile-139907678671536"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164861792"
+                                "@id": "#process/139907678671488"
                             }
                         },
                         {
-                            "@id": "#process/140201164864192",
+                            "@id": "#process/139907678673888",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230768"
+                                "@id": "#139907679046144"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140201165103840"
+                                    "@id": "#sample/139907679096064"
                                 }
                             ],
                             "name": "RNA_extraction_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140201164864672"
+                                "@id": "#process/139907678674368"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164864096"
+                                    "@id": "#material/extract-139907678673792"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164864864",
+                            "@id": "#process/139907678674560",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231536"
+                                "@id": "#139907679046864"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164864096"
+                                    "@id": "#material/extract-139907678673792"
                                 }
                             ],
                             "name": "ReverseTranscription_RNA_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140201164865008"
+                                "@id": "#process/139907678674704"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164864768"
+                                    "@id": "#material/extract-139907678674464"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164865008",
+                            "@id": "#process/139907678674704",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231680"
+                                "@id": "#139907679047008"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164864768"
+                                    "@id": "#material/extract-139907678674464"
                                 }
                             ],
                             "name": "miRNAarray_RNA_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140201164865152"
+                                "@id": "#process/139907678674848"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140201164864912"
+                                    "@id": "#data/rawdatafile-139907678674608"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164864864"
+                                "@id": "#process/139907678674560"
                             }
                         },
                         {
-                            "@id": "#process/140201164865152",
+                            "@id": "#process/139907678674848",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231680"
+                                "@id": "#139907679047008"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140201164864912"
+                                    "@id": "#data/rawdatafile-139907678674608"
                                 }
                             ],
                             "name": "datanormalization_RNA_sample_2",
                             "outputs": [
                                 {
-                                    "@id": "#data/deriveddatafile-140201164865056"
+                                    "@id": "#data/deriveddatafile-139907678674752"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164865008"
+                                "@id": "#process/139907678674704"
                             }
                         },
                         {
-                            "@id": "#process/140201164867616",
+                            "@id": "#process/139907678709264",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165230768"
+                                "@id": "#139907679046144"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140201165104608"
+                                    "@id": "#sample/139907679096736"
                                 }
                             ],
                             "name": "RNA_extraction_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140201164868048"
+                                "@id": "#process/139907678710512"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164867520"
+                                    "@id": "#material/extract-139907678709936"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164868192",
+                            "@id": "#process/139907678710752",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231536"
+                                "@id": "#139907679046864"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164867520"
+                                    "@id": "#material/extract-139907678709936"
                                 }
                             ],
                             "name": "ReverseTranscription_RNA_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140201164868336"
+                                "@id": "#process/139907678710176"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164868144"
+                                    "@id": "#material/extract-139907678710608"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164868336",
+                            "@id": "#process/139907678710176",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231680"
+                                "@id": "#139907679047008"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164868144"
+                                    "@id": "#material/extract-139907678710608"
                                 }
                             ],
                             "name": "miRNAarray_RNA_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140201164868480"
+                                "@id": "#process/139907678711040"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140201164868240"
+                                    "@id": "#data/rawdatafile-139907678710848"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164868192"
+                                "@id": "#process/139907678710752"
                             }
                         },
                         {
-                            "@id": "#process/140201164868480",
+                            "@id": "#process/139907678711040",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231680"
+                                "@id": "#139907679047008"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#data/rawdatafile-140201164868240"
+                                    "@id": "#data/rawdatafile-139907678710848"
                                 }
                             ],
                             "name": "datanormalization_RNA_sample_3",
                             "outputs": [
                                 {
-                                    "@id": "#data/deriveddatafile-140201164868384"
+                                    "@id": "#data/deriveddatafile-139907678710944"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164868336"
+                                "@id": "#process/139907678710176"
                             }
                         }
                     ],
                     "technologyPlatform": {
-                        "@id": "#1d02c645-e001-4b63-b6ef-63d063c3f460",
+                        "@id": "#7afe5710-1944-4484-bdab-9b89804dce57",
                         "annotationValue": "LightCycler 480 Real-Time PCR detection instrument",
                         "comments": [],
                         "termAccession": "http://www.bioassayontology.org/bao#BAO_0150063",
                         "termSource": "BAO - BioAssay Ontology"
                     },
                     "technologyType": {
-                        "@id": "#d369cb46-2924-4312-ba59-74fd4556abe1",
+                        "@id": "#f8bf224a-941f-4d3f-b1d4-6ef204ad459a",
                         "annotationValue": "microRNA profiling by RT-PCR",
                         "comments": [],
                         "termAccession": "http://www.ebi.ac.uk/efo/EFO_0007687",
@@ -1576,19 +1609,19 @@
                     "materials": {
                         "otherMaterials": [
                             {
-                                "@id": "#material/extract-140201164861984",
+                                "@id": "#material/extract-139907678671680",
                                 "characteristics": [],
                                 "name": "sample_1^B-BCARP_NM",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140201164865200",
+                                "@id": "#material/extract-139907678674896",
                                 "characteristics": [],
                                 "name": "sample_2^B-BCARP_NM",
                                 "type": "Extract Name"
                             },
                             {
-                                "@id": "#material/extract-140201164868528",
+                                "@id": "#material/extract-139907678711088",
                                 "characteristics": [],
                                 "name": "sample_3^B-BCARP_NM",
                                 "type": "Extract Name"
@@ -1596,14 +1629,14 @@
                         ],
                         "samples": [
                             {
-                                "@id": "#sample/140202296083648",
+                                "@id": "#sample/139907679094672",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#5fd445f5-512a-4667-bc9b-eafeab796738"
+                                            "@id": "#5a4c1979-6ad6-4c8b-bd9b-4d8aca84e1ca"
                                         },
                                         "value": {
-                                            "@id": "#35e05e4a-11c3-4067-9d20-fc7efd759d36",
+                                            "@id": "#4857cb28-68e6-47f7-9b9b-4e24fc24edf0",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1615,14 +1648,14 @@
                                 "name": "sample_1"
                             },
                             {
-                                "@id": "#sample/140201165103840",
+                                "@id": "#sample/139907679096064",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#4d1339ca-ff8c-4587-b55c-6498ea928bdf"
+                                            "@id": "#a8b95a8c-0691-4004-8e02-316fd6512068"
                                         },
                                         "value": {
-                                            "@id": "#d36c62c4-0bfb-432e-adf6-dacae7fabe06",
+                                            "@id": "#73489d7e-ead7-4b30-ae5a-a36e77dbd1e0",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1634,14 +1667,14 @@
                                 "name": "sample_2"
                             },
                             {
-                                "@id": "#sample/140201165104608",
+                                "@id": "#sample/139907679096736",
                                 "characteristics": [
                                     {
                                         "category": {
-                                            "@id": "#3dba7524-36d3-43a9-bf13-22a805fb378f"
+                                            "@id": "#24532463-6d53-441c-b033-c358125650b2"
                                         },
                                         "value": {
-                                            "@id": "#d06a03e3-b55c-4ce5-91cf-31b94b7f84ba",
+                                            "@id": "#f10b0ec4-a3a1-48cf-91a5-52d207f45355",
                                             "annotationValue": "blood",
                                             "comments": [],
                                             "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -1655,7 +1688,7 @@
                         ]
                     },
                     "measurementType": {
-                        "@id": "#736f2927-bb78-4a68-9354-2c1e7bea5c69",
+                        "@id": "#05c6a4d9-e33b-4dff-9777-b529dd47c589",
                         "annotationValue": "targeted metabolite profiling",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/MSIO_0000100",
@@ -1663,36 +1696,36 @@
                     },
                     "processSequence": [
                         {
-                            "@id": "#process/140201164862272",
+                            "@id": "#process/139907678671968",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231968"
+                                "@id": "#139907679047248"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140202296083648"
+                                    "@id": "#sample/139907679094672"
                                 }
                             ],
                             "name": "Sample_preparation_plasma_acylcarnitine_analysis_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140201164862512"
+                                "@id": "#process/139907678672208"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164861984"
+                                    "@id": "#material/extract-139907678671680"
                                 }
                             ],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165215968"
+                                        "@id": "#139907679043936"
                                     },
                                     "value": "50 uL of sample was diluted with IS in MeOH, followed by 500 uL acetonitril. Mixture was vortexed and subsequently centrifuged at 16100*g at room temp. For 5 minutes. Supernatant was transferred to a new vial and evaporated at 37 degree Celsius under a flow of nitrogen. 50 uL of 1M derivitizing agent (1-butanol : acetylchloride 19:1) was added. The sample was vortexed and kept at 60\u00b0 Celsius for exactly 15 minutes. Sample was again evaporated at 37\u00b0 Celsius under a flow of nitrogen. Sample was then resuspended in 500 uL acetonitril, vortexed and injected."
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165216304"
+                                        "@id": "#139908834995024"
                                     },
                                     "value": "Butylation"
                                 }
@@ -1700,83 +1733,83 @@
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164862512",
+                            "@id": "#process/139907678672208",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232112"
+                                "@id": "#139907679047392"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164861984"
+                                    "@id": "#material/extract-139907678671680"
                                 }
                             ],
                             "name": "Chromatography_plasma_acylcarnitine_analysis_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140201164863472"
+                                "@id": "#process/139907678673168"
                             },
                             "outputs": [],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165216544"
+                                        "@id": "#139907679358112"
                                     },
                                     "value": "Waters I-class HPLC system"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165216832"
+                                        "@id": "#139907679044368"
                                     },
                                     "value": "flow injection analysis"
                                 }
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164862272"
+                                "@id": "#process/139907678671968"
                             }
                         },
                         {
-                            "@id": "#process/140201164863472",
+                            "@id": "#process/139907678673168",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232208"
+                                "@id": "#139907679047488"
                             },
                             "inputs": [],
                             "name": "MS_plasma_acylcarnitine_analysis_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140201164863520"
+                                "@id": "#process/139907678673216"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#data/rawspectraldatafile-140201164862560"
+                                    "@id": "#data/rawspectraldatafile-139907678672256"
                                 }
                             ],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165216976"
+                                        "@id": "#139907679044656"
                                     },
                                     "value": "postive"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217168"
+                                        "@id": "#139907679044800"
                                     },
                                     "value": "200-525"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217408"
+                                        "@id": "#139907679045040"
                                     },
                                     "value": "Waters Xevo TQ-S micro"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217600"
+                                        "@id": "#139907679045232"
                                     },
                                     "value": {
-                                        "@id": "#9fb25b26-6df9-4a41-a0a8-aabb5a8b5cff",
+                                        "@id": "#18cae0b9-afe7-460b-922c-82ce57cf148c",
                                         "annotationValue": "electrospray ionization",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/MS_1000073",
@@ -1785,10 +1818,10 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217696"
+                                        "@id": "#139907679045424"
                                     },
                                     "value": {
-                                        "@id": "#3d8d3f96-6be5-4073-b14c-ddf748f6659f",
+                                        "@id": "#8b8cf49c-e683-4339-ae7e-1ca4bf6cd950",
                                         "annotationValue": "triple quadrupole mass spectrometer",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002021",
@@ -1797,90 +1830,90 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165230288"
+                                        "@id": "#139907679045616"
                                     },
                                     "value": "https://doi.org/10.1023/A:1005587617745"
                                 }
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164862512"
+                                "@id": "#process/139907678672208"
                             }
                         },
                         {
-                            "@id": "#process/140201164863520",
+                            "@id": "#process/139907678673216",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232400"
+                                "@id": "#139907679047632"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#data/rawspectraldatafile-140201164862560"
+                                    "@id": "#data/rawspectraldatafile-139907678672256"
                                 }
                             ],
                             "name": "Data_transformation_plasma_acylcarnitine_analysis_sample_1",
                             "nextProcess": {
-                                "@id": "#process/140201164863664"
+                                "@id": "#process/139907678673360"
                             },
                             "outputs": [],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164863472"
+                                "@id": "#process/139907678673168"
                             }
                         },
                         {
-                            "@id": "#process/140201164863664",
+                            "@id": "#process/139907678673360",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232544"
+                                "@id": "#139907679092944"
                             },
                             "inputs": [],
                             "name": "Metabolite_identification_plasma_acylcarnitine_analysis_sample_1",
                             "outputs": [
                                 {
-                                    "@id": "#data/metaboliteassignmentfile-140201164863568"
+                                    "@id": "#data/metaboliteassignmentfile-139907678673264"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164863520"
+                                "@id": "#process/139907678673216"
                             }
                         },
                         {
-                            "@id": "#process/140201164865488",
+                            "@id": "#process/139907678708016",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231968"
+                                "@id": "#139907679047248"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140201165103840"
+                                    "@id": "#sample/139907679096064"
                                 }
                             ],
                             "name": "Sample_preparation_plasma_acylcarnitine_analysis_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140201164865792"
+                                "@id": "#process/139907678708256"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164865200"
+                                    "@id": "#material/extract-139907678674896"
                                 }
                             ],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165215968"
+                                        "@id": "#139907679043936"
                                     },
                                     "value": "50 uL of sample was diluted with IS in MeOH, followed by 500 uL acetonitril. Mixture was vortexed and subsequently centrifuged at 16100*g at room temp. For 5 minutes. Supernatant was transferred to a new vial and evaporated at 37 degree Celsius under a flow of nitrogen. 50 uL of 1M derivitizing agent (1-butanol : acetylchloride 19:1) was added. The sample was vortexed and kept at 60\u00b0 Celsius for exactly 15 minutes. Sample was again evaporated at 37\u00b0 Celsius under a flow of nitrogen. Sample was then resuspended in 500 uL acetonitril, vortexed and injected."
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165216304"
+                                        "@id": "#139908834995024"
                                     },
                                     "value": "Butylation"
                                 }
@@ -1888,83 +1921,83 @@
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164865792",
+                            "@id": "#process/139907678708256",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232112"
+                                "@id": "#139907679047392"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164865200"
+                                    "@id": "#material/extract-139907678674896"
                                 }
                             ],
                             "name": "Chromatography_plasma_acylcarnitine_analysis_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140201164866752"
+                                "@id": "#process/139907678709360"
                             },
                             "outputs": [],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165216544"
+                                        "@id": "#139907679358112"
                                     },
                                     "value": "Waters I-class HPLC system"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165216832"
+                                        "@id": "#139907679044368"
                                     },
                                     "value": "flow injection analysis"
                                 }
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164865488"
+                                "@id": "#process/139907678708016"
                             }
                         },
                         {
-                            "@id": "#process/140201164866752",
+                            "@id": "#process/139907678709360",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232208"
+                                "@id": "#139907679047488"
                             },
                             "inputs": [],
                             "name": "MS_plasma_acylcarnitine_analysis_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140201164866800"
+                                "@id": "#process/139907678709408"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#data/rawspectraldatafile-140201164865888"
+                                    "@id": "#data/rawspectraldatafile-139907678708304"
                                 }
                             ],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165216976"
+                                        "@id": "#139907679044656"
                                     },
                                     "value": "postive"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217168"
+                                        "@id": "#139907679044800"
                                     },
                                     "value": "200-525"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217408"
+                                        "@id": "#139907679045040"
                                     },
                                     "value": "Waters Xevo TQ-S micro"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217600"
+                                        "@id": "#139907679045232"
                                     },
                                     "value": {
-                                        "@id": "#b3dbc082-2a81-4813-b494-9ccd8a7c5dc6",
+                                        "@id": "#8d20d6ac-ff35-40dd-a943-5cea43d170af",
                                         "annotationValue": "electrospray ionization",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/MS_1000073",
@@ -1973,10 +2006,10 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217696"
+                                        "@id": "#139907679045424"
                                     },
                                     "value": {
-                                        "@id": "#45ec65b0-fe8a-431d-9751-0f2d7b3dd2e9",
+                                        "@id": "#30fafbda-2738-4861-bd74-7cf086778c7f",
                                         "annotationValue": "triple quadrupole mass spectrometer",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002021",
@@ -1985,90 +2018,90 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165230288"
+                                        "@id": "#139907679045616"
                                     },
                                     "value": "https://doi.org/10.1023/A:1005587617745"
                                 }
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164865792"
+                                "@id": "#process/139907678708256"
                             }
                         },
                         {
-                            "@id": "#process/140201164866800",
+                            "@id": "#process/139907678709408",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232400"
+                                "@id": "#139907679047632"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#data/rawspectraldatafile-140201164865888"
+                                    "@id": "#data/rawspectraldatafile-139907678708304"
                                 }
                             ],
                             "name": "Data_transformation_plasma_acylcarnitine_analysis_sample_2",
                             "nextProcess": {
-                                "@id": "#process/140201164866944"
+                                "@id": "#process/139907678708784"
                             },
                             "outputs": [],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164866752"
+                                "@id": "#process/139907678709360"
                             }
                         },
                         {
-                            "@id": "#process/140201164866944",
+                            "@id": "#process/139907678708784",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232544"
+                                "@id": "#139907679092944"
                             },
                             "inputs": [],
                             "name": "Metabolite_identification_plasma_acylcarnitine_analysis_sample_2",
                             "outputs": [
                                 {
-                                    "@id": "#data/metaboliteassignmentfile-140201164866848"
+                                    "@id": "#data/metaboliteassignmentfile-139907678709456"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164866800"
+                                "@id": "#process/139907678709408"
                             }
                         },
                         {
-                            "@id": "#process/140201164868912",
+                            "@id": "#process/139907678711376",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165231968"
+                                "@id": "#139907679047248"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#sample/140201165104608"
+                                    "@id": "#sample/139907679096736"
                                 }
                             ],
                             "name": "Sample_preparation_plasma_acylcarnitine_analysis_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140201164869200"
+                                "@id": "#process/139907678711616"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#material/extract-140201164868528"
+                                    "@id": "#material/extract-139907678711088"
                                 }
                             ],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165215968"
+                                        "@id": "#139907679043936"
                                     },
                                     "value": "50 uL of sample was diluted with IS in MeOH, followed by 500 uL acetonitril. Mixture was vortexed and subsequently centrifuged at 16100*g at room temp. For 5 minutes. Supernatant was transferred to a new vial and evaporated at 37 degree Celsius under a flow of nitrogen. 50 uL of 1M derivitizing agent (1-butanol : acetylchloride 19:1) was added. The sample was vortexed and kept at 60\u00b0 Celsius for exactly 15 minutes. Sample was again evaporated at 37\u00b0 Celsius under a flow of nitrogen. Sample was then resuspended in 500 uL acetonitril, vortexed and injected."
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165216304"
+                                        "@id": "#139908834995024"
                                     },
                                     "value": "Butylation"
                                 }
@@ -2076,83 +2109,83 @@
                             "performer": ""
                         },
                         {
-                            "@id": "#process/140201164869200",
+                            "@id": "#process/139907678711616",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232112"
+                                "@id": "#139907679047392"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#material/extract-140201164868528"
+                                    "@id": "#material/extract-139907678711088"
                                 }
                             ],
                             "name": "Chromatography_plasma_acylcarnitine_analysis_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140201164898704"
+                                "@id": "#process/139907678782128"
                             },
                             "outputs": [],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165216544"
+                                        "@id": "#139907679358112"
                                     },
                                     "value": "Waters I-class HPLC system"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165216832"
+                                        "@id": "#139907679044368"
                                     },
                                     "value": "flow injection analysis"
                                 }
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164868912"
+                                "@id": "#process/139907678711376"
                             }
                         },
                         {
-                            "@id": "#process/140201164898704",
+                            "@id": "#process/139907678782128",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232208"
+                                "@id": "#139907679047488"
                             },
                             "inputs": [],
                             "name": "MS_plasma_acylcarnitine_analysis_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140201164898752"
+                                "@id": "#process/139907678782176"
                             },
                             "outputs": [
                                 {
-                                    "@id": "#data/rawspectraldatafile-140201164869248"
+                                    "@id": "#data/rawspectraldatafile-139907678711664"
                                 }
                             ],
                             "parameterValues": [
                                 {
                                     "category": {
-                                        "@id": "#140201165216976"
+                                        "@id": "#139907679044656"
                                     },
                                     "value": "postive"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217168"
+                                        "@id": "#139907679044800"
                                     },
                                     "value": "200-525"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217408"
+                                        "@id": "#139907679045040"
                                     },
                                     "value": "Waters Xevo TQ-S micro"
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217600"
+                                        "@id": "#139907679045232"
                                     },
                                     "value": {
-                                        "@id": "#d3f9e18f-5fbc-405f-8efe-5c13e11a82b6",
+                                        "@id": "#1099446b-b326-444a-8cfe-63358e84b533",
                                         "annotationValue": "electrospray ionization",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/MS_1000073",
@@ -2161,10 +2194,10 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165217696"
+                                        "@id": "#139907679045424"
                                     },
                                     "value": {
-                                        "@id": "#cae5d38b-d589-4f7e-b312-bc1b85cf9d46",
+                                        "@id": "#733b21d4-e444-47d2-a91a-1a6bba18727f",
                                         "annotationValue": "triple quadrupole mass spectrometer",
                                         "comments": [],
                                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002021",
@@ -2173,66 +2206,93 @@
                                 },
                                 {
                                     "category": {
-                                        "@id": "#140201165230288"
+                                        "@id": "#139907679045616"
                                     },
                                     "value": "https://doi.org/10.1023/A:1005587617745"
                                 }
                             ],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164869200"
+                                "@id": "#process/139907678711616"
                             }
                         },
                         {
-                            "@id": "#process/140201164898752",
+                            "@id": "#process/139907678782176",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232400"
+                                "@id": "#139907679047632"
                             },
                             "inputs": [
                                 {
-                                    "@id": "#data/rawspectraldatafile-140201164869248"
+                                    "@id": "#data/rawspectraldatafile-139907678711664"
                                 }
                             ],
                             "name": "Data_transformation_plasma_acylcarnitine_analysis_sample_3",
                             "nextProcess": {
-                                "@id": "#process/140201164898896"
+                                "@id": "#process/139907678782320"
                             },
                             "outputs": [],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164898704"
+                                "@id": "#process/139907678782128"
                             }
                         },
                         {
-                            "@id": "#process/140201164898896",
+                            "@id": "#process/139907678782320",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
-                                "@id": "#140201165232544"
+                                "@id": "#139907679092944"
                             },
                             "inputs": [],
                             "name": "Metabolite_identification_plasma_acylcarnitine_analysis_sample_3",
                             "outputs": [
                                 {
-                                    "@id": "#data/metaboliteassignmentfile-140201164898800"
+                                    "@id": "#data/metaboliteassignmentfile-139907678782224"
                                 }
                             ],
                             "parameterValues": [],
                             "performer": "",
                             "previousProcess": {
-                                "@id": "#process/140201164898752"
+                                "@id": "#process/139907678782176"
                             }
                         }
                     ],
                     "technologyPlatform": "Micromass Quattro II triple-quadrupole mass spectrometer",
                     "technologyType": {
-                        "@id": "#5bfe74eb-018d-4ee7-8b6d-3d45b7ba294c",
-                        "annotationValue": "electrospray ionisation tandem mass spectrometry",
+                        "@id": "#7f0bce03-8c08-422a-b48d-6a1d3a5ecdbe",
+                        "annotationValue": "mass spectrometry",
                         "comments": [],
-                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000577",
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000470",
+                        "termSource": "CHMO - Chemical Methods Ontology"
+                    },
+                    "unitCategories": []
+                },
+                {
+                    "characteristicCategories": [],
+                    "comments": [],
+                    "dataFiles": [],
+                    "filename": "a_assay_metabolomics_aminoacids_mumc.txt",
+                    "materials": {
+                        "otherMaterials": [],
+                        "samples": []
+                    },
+                    "measurementType": {
+                        "@id": "#66b0a772-4707-4055-ab78-6eddd5e3474b",
+                        "annotationValue": "targeted metabolite profiling",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/MSIO_0000100",
+                        "termSource": "MS - Mass spectrometry ontology"
+                    },
+                    "processSequence": [],
+                    "technologyPlatform": "Micromass Quattro Premier XE Tandem Mass Spectrometer",
+                    "technologyType": {
+                        "@id": "#03965422-cc30-4dc6-a0ba-51b216bafd46",
+                        "annotationValue": "mass spectrometry",
+                        "comments": [],
+                        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000470",
                         "termSource": "CHMO - Chemical Methods Ontology"
                     },
                     "unitCategories": []
@@ -2248,14 +2308,14 @@
                 "otherMaterials": [],
                 "samples": [
                     {
-                        "@id": "#sample/140202296083648",
+                        "@id": "#sample/139907679094672",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#5fd445f5-512a-4667-bc9b-eafeab796738"
+                                    "@id": "#5a4c1979-6ad6-4c8b-bd9b-4d8aca84e1ca"
                                 },
                                 "value": {
-                                    "@id": "#35e05e4a-11c3-4067-9d20-fc7efd759d36",
+                                    "@id": "#4857cb28-68e6-47f7-9b9b-4e24fc24edf0",
                                     "annotationValue": "blood",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -2267,14 +2327,14 @@
                         "name": "sample_1"
                     },
                     {
-                        "@id": "#sample/140201165103840",
+                        "@id": "#sample/139907679096064",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#4d1339ca-ff8c-4587-b55c-6498ea928bdf"
+                                    "@id": "#a8b95a8c-0691-4004-8e02-316fd6512068"
                                 },
                                 "value": {
-                                    "@id": "#d36c62c4-0bfb-432e-adf6-dacae7fabe06",
+                                    "@id": "#73489d7e-ead7-4b30-ae5a-a36e77dbd1e0",
                                     "annotationValue": "blood",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -2286,14 +2346,14 @@
                         "name": "sample_2"
                     },
                     {
-                        "@id": "#sample/140201165104608",
+                        "@id": "#sample/139907679096736",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#3dba7524-36d3-43a9-bf13-22a805fb378f"
+                                    "@id": "#24532463-6d53-441c-b033-c358125650b2"
                                 },
                                 "value": {
-                                    "@id": "#d06a03e3-b55c-4ce5-91cf-31b94b7f84ba",
+                                    "@id": "#f10b0ec4-a3a1-48cf-91a5-52d207f45355",
                                     "annotationValue": "blood",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/UBERON_0000178",
@@ -2307,14 +2367,14 @@
                 ],
                 "sources": [
                     {
-                        "@id": "#source/140202296086144",
+                        "@id": "#source/139907679095152",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#10245e60-f124-432b-89e4-fc7b7c679cc9"
+                                    "@id": "#e9b4995e-56c2-4798-9ad6-f7eea9acc803"
                                 },
                                 "value": {
-                                    "@id": "#67679c83-807f-45b0-8be1-2e7e687e9cc3",
+                                    "@id": "#69d42912-39fe-4751-b5e0-0124f7e44979",
                                     "annotationValue": "Homo sapiens",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
@@ -2325,14 +2385,14 @@
                         "name": "individual_1"
                     },
                     {
-                        "@id": "#source/140201165103552",
+                        "@id": "#source/139907679093520",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#fb33c9cf-dbd4-4828-a378-5f8fe5c58e12"
+                                    "@id": "#e6296256-21bb-4049-a88d-c4e43eff3a9f"
                                 },
                                 "value": {
-                                    "@id": "#ee07d52d-e103-4119-b20d-9286224626f4",
+                                    "@id": "#c76d5871-1266-4f15-b032-7c1d7f28f789",
                                     "annotationValue": "Homo sapiens",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
@@ -2343,14 +2403,14 @@
                         "name": "individual_2"
                     },
                     {
-                        "@id": "#source/140201165104320",
+                        "@id": "#source/139907679096496",
                         "characteristics": [
                             {
                                 "category": {
-                                    "@id": "#c7ea972d-253d-4308-a7ca-616d5262919c"
+                                    "@id": "#6d989e83-f391-42c6-84b5-e218ec377093"
                                 },
                                 "value": {
-                                    "@id": "#844b558c-0a99-424c-abab-b8630ca1df41",
+                                    "@id": "#fea899d7-9106-4246-aa43-623d056a4da8",
                                     "annotationValue": "Homo sapiens",
                                     "comments": [],
                                     "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
@@ -2378,63 +2438,63 @@
             ],
             "processSequence": [
                 {
-                    "@id": "#process/140201165103264",
+                    "@id": "#process/139907679095536",
                     "comments": [],
                     "date": "",
                     "executesProtocol": {
-                        "@id": "#140201165230480"
+                        "@id": "#139907679045856"
                     },
                     "inputs": [
                         {
-                            "@id": "#source/140202296086144"
+                            "@id": "#source/139907679095152"
                         }
                     ],
                     "name": "samplecollection_1",
                     "outputs": [
                         {
-                            "@id": "#sample/140202296083648"
+                            "@id": "#sample/139907679094672"
                         }
                     ],
                     "parameterValues": [],
                     "performer": ""
                 },
                 {
-                    "@id": "#process/140201165103984",
+                    "@id": "#process/139907679096160",
                     "comments": [],
                     "date": "",
                     "executesProtocol": {
-                        "@id": "#140201165230480"
+                        "@id": "#139907679045856"
                     },
                     "inputs": [
                         {
-                            "@id": "#source/140201165103552"
+                            "@id": "#source/139907679093520"
                         }
                     ],
                     "name": "samplecollection_2",
                     "outputs": [
                         {
-                            "@id": "#sample/140201165103840"
+                            "@id": "#sample/139907679096064"
                         }
                     ],
                     "parameterValues": [],
                     "performer": ""
                 },
                 {
-                    "@id": "#process/140201165104752",
+                    "@id": "#process/139907678916672",
                     "comments": [],
                     "date": "",
                     "executesProtocol": {
-                        "@id": "#140201165230480"
+                        "@id": "#139907679045856"
                     },
                     "inputs": [
                         {
-                            "@id": "#source/140201165104320"
+                            "@id": "#source/139907679096496"
                         }
                     ],
                     "name": "samplecollection_3",
                     "outputs": [
                         {
-                            "@id": "#sample/140201165104608"
+                            "@id": "#sample/139907679096736"
                         }
                     ],
                     "parameterValues": [],
@@ -2443,14 +2503,14 @@
             ],
             "protocols": [
                 {
-                    "@id": "#140201165230480",
+                    "@id": "#139907679045856",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "sample_collection_protocol",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#77d72731-73fc-4544-b865-f17cce69ae26",
+                        "@id": "#7e080bf7-ce13-4597-9f88-bee673e6a60d",
                         "annotationValue": "sample collection",
                         "comments": [],
                         "termAccession": "",
@@ -2460,14 +2520,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165230624",
+                    "@id": "#139907679046000",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "DNA extraction",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#53496320-38af-4741-bedc-3b20bdfc4ee8",
+                        "@id": "#6380deff-de45-4cc3-814e-e2008aa50d4d",
                         "annotationValue": "DNA extraction",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0000257",
@@ -2477,14 +2537,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165230768",
+                    "@id": "#139907679046144",
                     "comments": [],
                     "components": [],
                     "description": "RNA extraction is a nucleic acid extraction where the desired output material is RNA",
                     "name": "RNA extraction",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#db7fed3d-da56-4630-92e6-36df5d019f29",
+                        "@id": "#a4b14c38-3c50-4b1c-9320-9d48bdc1d926",
                         "annotationValue": "RNA extraction",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0666666",
@@ -2494,14 +2554,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165230912",
+                    "@id": "#139907679046288",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "Whole Genome Sequencing",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#eb1b9845-2687-4ffe-84ba-6f60ad3148d4",
+                        "@id": "#5c6fc258-f428-48a3-a518-345e28bce175",
                         "annotationValue": "Whole Genome Sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C101294",
@@ -2511,14 +2571,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165231104",
+                    "@id": "#139907679046432",
                     "comments": [],
                     "components": [],
                     "description": "Library preparation from 800 ng of total RNA was performed according to Illumina stranded mRNA prep Reference Guide (Illumina, San Diego, CA, USA). ). Library quality check was performed using LabChip GX Touch HT High Sensitivity assay (PerkinElmer, USA). The libraries were quantified for sequencing using KAPA Library Quantification Kit (KAPA Biosystems, Wilmington, MA, USA).",
                     "name": "mRNA library preparation",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#479def3d-2af7-4618-8de8-5a404aa7975d",
+                        "@id": "#b732f02f-9bfb-46c5-8e16-8dfdf526aea9",
                         "annotationValue": "library preparation protocol",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/ORNASEQ_0000007",
@@ -2528,14 +2588,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165231248",
+                    "@id": "#139907679046576",
                     "comments": [],
                     "components": [],
                     "description": "Sequencing was performed with Illumina NovaSeq system using S4 flow cell with lane divider (Illumina, San Diego, CA, USA). Read length for the paired-end run was 2x151 bp.",
                     "name": "mRNA Sequencing",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#c765ec47-527f-4b27-9304-bcc63ddc50e4",
+                        "@id": "#473f0ecb-afc9-4924-bfd0-d773ba477719",
                         "annotationValue": "nucleic acid sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C18881",
@@ -2545,14 +2605,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165231392",
+                    "@id": "#139907679046720",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "MicroRNA Sequencing",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#b6332969-b614-49fa-927e-834a6c6ba07e",
+                        "@id": "#93af8bf2-e177-4375-9289-ef8fcf0b1e79",
                         "annotationValue": "MicroRNA Sequencing",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C156057",
@@ -2562,14 +2622,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165231536",
+                    "@id": "#139907679046864",
                     "comments": [],
                     "components": [],
                     "description": "A protocol with the objective to transcribe single-stranded RNA into complementary DNA (cDNA)",
                     "name": "Reverse Transcription",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#0dd47ee3-92d0-4456-a88f-0c59fa3684e8",
+                        "@id": "#e50ef18d-d18c-4230-93c0-40ccf1be40ef",
                         "annotationValue": "artificially induced reverse transcription",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0600028",
@@ -2579,14 +2639,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165231680",
+                    "@id": "#139907679047008",
                     "comments": [],
                     "components": [],
                     "description": "An assay in which a set of microRNAs of a biological sample is analysed by reverse transcription PCR (RT-PCR)",
                     "name": "miRNA array",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#b34a94d8-9180-4577-818b-944967837842",
+                        "@id": "#ed128b27-dde7-4f84-a2b8-a14fa3561078",
                         "annotationValue": "microRNA profiling by RT-PCR",
                         "comments": [],
                         "termAccession": "http://www.ebi.ac.uk/efo/EFO_0007687",
@@ -2596,14 +2656,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165231824",
+                    "@id": "#139907679045664",
                     "comments": [],
                     "components": [],
                     "description": "Comparison of a variable factor to one with a fixed value (e.g., comparison of gene expression to a gene with constant expression)",
                     "name": "Data Normalization",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#11d884fa-af71-4980-b34a-601409ab033b",
+                        "@id": "#6f07c63c-f02a-4a77-a97e-5d70933ee1ee",
                         "annotationValue": "Constant Normalization",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/NCIT_C63786",
@@ -2613,16 +2673,16 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165231968",
+                    "@id": "#139907679047248",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "Extraction",
                     "parameters": [
                         {
-                            "@id": "#140201165215968",
+                            "@id": "#139907679043936",
                             "parameterName": {
-                                "@id": "#0a3ee51c-67ae-46ab-94cc-1da195203e8c",
+                                "@id": "#db5c9a64-e54f-49bb-b84e-a9bd0428478b",
                                 "annotationValue": "Post Extraction",
                                 "comments": [],
                                 "termAccession": "",
@@ -2630,9 +2690,9 @@
                             }
                         },
                         {
-                            "@id": "#140201165216304",
+                            "@id": "#139908834995024",
                             "parameterName": {
-                                "@id": "#c134626e-e9e4-465b-abc0-8f347072548a",
+                                "@id": "#ead857c6-46d3-4f84-a5a6-ca032293384c",
                                 "annotationValue": "Derivatization",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/MSIO_0000111",
@@ -2641,7 +2701,7 @@
                         }
                     ],
                     "protocolType": {
-                        "@id": "#43f28f01-5505-4936-9421-163c51c0c846",
+                        "@id": "#ebcb51c8-b29e-4ecc-a0de-307be8dd939d",
                         "annotationValue": "extraction",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0302884",
@@ -2651,16 +2711,16 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165232112",
+                    "@id": "#139907679047392",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "Chromatography",
                     "parameters": [
                         {
-                            "@id": "#140201165216544",
+                            "@id": "#139907679358112",
                             "parameterName": {
-                                "@id": "#dbacf3cf-8ffd-4e56-8db7-7f7b8f1b77fd",
+                                "@id": "#fa5a5a05-af39-4a2c-b34b-58ab25e2bb32",
                                 "annotationValue": "Chromatography Instrument",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/OBI_0000485",
@@ -2668,9 +2728,9 @@
                             }
                         },
                         {
-                            "@id": "#140201165216400",
+                            "@id": "#139907679358304",
                             "parameterName": {
-                                "@id": "#a28d515f-82e1-4d68-a823-6a99c9dc06a9",
+                                "@id": "#f8887870-160c-4604-980a-625e71ced450",
                                 "annotationValue": "Column model",
                                 "comments": [],
                                 "termAccession": "",
@@ -2678,9 +2738,9 @@
                             }
                         },
                         {
-                            "@id": "#140201165216832",
+                            "@id": "#139907679044368",
                             "parameterName": {
-                                "@id": "#6476563e-45ee-4d4a-a9fc-cd2ec1db4749",
+                                "@id": "#e19ecbb9-56fc-4fcb-b5e0-6fdf196075cd",
                                 "annotationValue": "Column type",
                                 "comments": [],
                                 "termAccession": "",
@@ -2689,7 +2749,7 @@
                         }
                     ],
                     "protocolType": {
-                        "@id": "#7218a43d-2544-42d8-9cbf-b385769ab96b",
+                        "@id": "#30fe7d17-dfbf-4d7c-81f6-16ab85b2fe5d",
                         "annotationValue": "chromatography",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0001000",
@@ -2699,16 +2759,16 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165232208",
+                    "@id": "#139907679047488",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "Mass spectrometry",
                     "parameters": [
                         {
-                            "@id": "#140201165216976",
+                            "@id": "#139907679044656",
                             "parameterName": {
-                                "@id": "#9ff4d844-50ea-460e-b719-57b8d73c5a2c",
+                                "@id": "#5ad6ce91-d69b-4fb4-9d35-4d780df11f9e",
                                 "annotationValue": "scan polarity",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/MS_1000465",
@@ -2716,9 +2776,9 @@
                             }
                         },
                         {
-                            "@id": "#140201165217168",
+                            "@id": "#139907679044800",
                             "parameterName": {
-                                "@id": "#4e95f51e-c1af-4824-b882-36bcdaa1ea2b",
+                                "@id": "#6c58f4e2-d27e-4b1b-840d-1eac5acbb633",
                                 "annotationValue": "Scan m/z range",
                                 "comments": [],
                                 "termAccession": "",
@@ -2726,9 +2786,9 @@
                             }
                         },
                         {
-                            "@id": "#140201165217408",
+                            "@id": "#139907679045040",
                             "parameterName": {
-                                "@id": "#85ddfb30-351c-45ec-9084-031936b475e1",
+                                "@id": "#9c6c6ad4-17b7-45a9-a61d-6c7ba0d34efd",
                                 "annotationValue": "Instrument",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/MS_1000463",
@@ -2736,9 +2796,9 @@
                             }
                         },
                         {
-                            "@id": "#140201165217600",
+                            "@id": "#139907679045232",
                             "parameterName": {
-                                "@id": "#0f4cd06f-b82f-47fe-ba20-32e3b17b03d8",
+                                "@id": "#2677f479-291e-48b0-9488-7839c17383b5",
                                 "annotationValue": "Ion source",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000960",
@@ -2746,9 +2806,9 @@
                             }
                         },
                         {
-                            "@id": "#140201165217696",
+                            "@id": "#139907679045424",
                             "parameterName": {
-                                "@id": "#84ef87f9-95c7-45e2-84fd-8907dd156c74",
+                                "@id": "#46bacb21-3abb-4c2c-a76e-7963cefe3486",
                                 "annotationValue": "Mass analyzer",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/MS_1000451",
@@ -2756,9 +2816,9 @@
                             }
                         },
                         {
-                            "@id": "#140201165230288",
+                            "@id": "#139907679045616",
                             "parameterName": {
-                                "@id": "#569b6b34-4a33-4cff-9634-13e2f7218764",
+                                "@id": "#bca546b9-d523-4898-998e-e5c22bf11f93",
                                 "annotationValue": "method reference",
                                 "comments": [],
                                 "termAccession": "http://purl.obolibrary.org/obo/MI_0357",
@@ -2767,7 +2827,7 @@
                         }
                     ],
                     "protocolType": {
-                        "@id": "#793af216-be0a-4feb-9df9-1d5c5464d185",
+                        "@id": "#0141bff3-e23d-40ff-86d9-9b8089aebf05",
                         "annotationValue": "mass spectrometry",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000470",
@@ -2777,14 +2837,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165232400",
+                    "@id": "#139907679047632",
                     "comments": [],
                     "components": [],
                     "description": "<i>Calibration:</i> Calibration curves were obtained for free carnitine in the range 5-100 umol/L, for acetylcarnitine in the range 2-40 umol/L and for all other available acylcarnitines in the range 0.25-6 umol/L by adding standards to a normal plasma pool. All calibration curves were linear (r > 0.99, data not shown). For unsaturated and hydroxylated acylcarnitines an identical response to that of their saturated counterparts was assumed.",
                     "name": "Data transformation - Plasma acylcarnitine analysis",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#877291e6-8291-4d4f-8aff-7984b64645b3",
+                        "@id": "#ed1b6b59-dc03-4251-bcea-1400f4288e1e",
                         "annotationValue": "data transformation",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/OBI_0200000",
@@ -2794,14 +2854,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140201165232544",
+                    "@id": "#139907679092944",
                     "comments": [],
                     "components": [],
                     "description": "",
                     "name": "Metabolite identification - Plasma acylcarnitine analysis",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#5e7c5a45-68dc-4fd9-994a-1ff1f3ab9436",
+                        "@id": "#69834c0d-3b95-4fcd-992a-547d74c08fd6",
                         "annotationValue": "metabolite identification",
                         "comments": [],
                         "termAccession": "http://purl.obolibrary.org/obo/MI_2131",
@@ -2811,14 +2871,14 @@
                     "version": ""
                 },
                 {
-                    "@id": "#140202295983168",
+                    "@id": "#139907679093088",
                     "comments": [],
                     "components": [],
                     "description": "NEBNext Enzymatic Methyl-seq (EM-seq)",
                     "name": "EM-seq",
                     "parameters": [],
                     "protocolType": {
-                        "@id": "#1e903846-c8a0-4c4b-bc55-830a85284a33",
+                        "@id": "#919ae657-4a68-42ab-b1a2-ead8494e1d32",
                         "annotationValue": "methylation profiling by high throughput sequencing",
                         "comments": [],
                         "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002761",
@@ -2832,14 +2892,14 @@
             "publications": [],
             "studyDesignDescriptors": [
                 {
-                    "@id": "#a3b9b86a-2086-4f00-b452-b356e8fd6be2",
+                    "@id": "#af34869f-9bfe-4f8f-a5b6-51b2b401c130",
                     "annotationValue": "Multi-omics study",
                     "comments": [],
                     "termAccession": "http://purl.obolibrary.org/obo/PRIDE_0000461",
                     "termSource": "PRIDE Controlled Vocabulary"
                 },
                 {
-                    "@id": "#2e6866bc-5753-4ef0-ab9e-698812f95a51",
+                    "@id": "#da2112b5-7d46-427a-8c7c-8f5135102c3b",
                     "annotationValue": "population based study design",
                     "comments": [],
                     "termAccession": "http://purl.obolibrary.org/obo/OMIABIS_0001022",
