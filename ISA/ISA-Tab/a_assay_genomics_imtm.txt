@@ -1,0 +1,4 @@
+Sample Name	Protocol REF	Extract Name	Protocol REF	Raw Data File R1	Raw Data File R2
+sample_1	DNA extraction	DNA_sample_1	Whole Genome Sequencing	WGS_rawdata_DNA_sample_1_R1.fastq.gz	WGS_rawdata_DNA_sample_1_R2.fastq.gz
+sample_2	DNA extraction	DNA_sample_2	Whole Genome Sequencing	WGS_rawdata_DNA_sample_2_R1.fastq.gz	WGS_rawdata_DNA_sample_2_R2.fastq.gz
+sample_3	DNA extraction	DNA_sample_3	Whole Genome Sequencing	WGS_rawdata_DNA_sample_3_R1.fastq.gz	WGS_rawdata_DNA_sample_3_R2.fastq.gz

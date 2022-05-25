@@ -1,4 +1,0 @@
-Sample Name	Protocol REF	Extract Name	Protocol REF	Protocol REF	Assay Name	Raw Data File R1	Raw Data File R2
-sample_1	RNA extraction	RNA_sample_1	mRNA library preparation	mRNA Sequencing	mRNAseq_RNA_sample_1	RNAseq_rawdata_RNA_sample_1_R1.fastq.gz	RNAseq_rawdata_RNA_sample_1_R2.fastq.gz
-sample_2	RNA extraction	RNA_sample_2	mRNA library preparation	mRNA Sequencing	mRNAseq_RNA_sample_2	RNAseq_rawdata_RNA_sample_2_R1.fastq.gz	RNAseq_rawdata_RNA_sample_2_R2.fastq.gz
-sample_3	RNA extraction	RNA_sample_3	mRNA library preparation	mRNA Sequencing	mRNAseq_RNA_sample_3	RNAseq_rawdata_RNA_sample_3_R1.fastq.gz	RNAseq_rawdata_RNA_sample_3_R2.fastq.gz
